@@ -1,0 +1,162 @@
+tests/test_opus_decode.o: tests/test_opus_decode.c config.h \
+ /tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/cdefs.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/android/api-level.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/types.h \
+ /tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h \
+ /tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/stdint.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/_types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/machine/_types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/_wchar_limits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/linux/posix_types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/linux/stddef.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/linux/compiler.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/asm/posix_types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/asm/types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/linux/types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/machine/kernel.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/sysmacros.h \
+ /tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/stdlib.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/string.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/malloc.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/alloca.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/strings.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/memory.h \
+ /tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h \
+ /tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/limits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/limits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/linux/limits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/machine/internal_types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/machine/limits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/syslimits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/asm/page.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/math.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/time.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/time.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/linux/time.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/asm/siginfo.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/asm-generic/siginfo.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/unistd.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/select.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/signal.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/asm/signal.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/asm-generic/signal.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/asm/sigcontext.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/sysconf.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/linux/capability.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/pathconf.h include/opus.h \
+ include/opus_types.h include/opus_defines.h tests/test_opus_common.h
+
+config.h:
+
+/tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/android/api-level.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/types.h:
+
+/tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h:
+
+/tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/stdint.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/_types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/machine/_types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/_wchar_limits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/linux/stddef.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/linux/compiler.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/asm/types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/linux/types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/machine/kernel.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+/tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/stdlib.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/string.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/malloc.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/alloca.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/strings.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/memory.h:
+
+/tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h:
+
+/tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/limits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/limits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/linux/limits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/machine/limits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/asm/page.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/math.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/time.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/time.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/linux/time.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/asm/siginfo.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/asm-generic/siginfo.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/unistd.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/select.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/signal.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/asm/signal.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/asm-generic/signal.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/asm/sigcontext.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/sysconf.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/linux/capability.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/pathconf.h:
+
+include/opus.h:
+
+include/opus_types.h:
+
+include/opus_defines.h:
+
+tests/test_opus_common.h:

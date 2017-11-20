@@ -1,0 +1,36 @@
+src/mlp_data.lo: src/mlp_data.c config.h src/mlp.h celt/arch.h \
+ include/opus_types.h \
+ /tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/stdint.h \
+ /tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/_types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/machine/_types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/_wchar_limits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/android/api-level.h \
+ include/opus_defines.h include/opus_types.h
+
+config.h:
+
+src/mlp.h:
+
+celt/arch.h:
+
+include/opus_types.h:
+
+/tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/stdint.h:
+
+/tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/_types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/machine/_types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/_wchar_limits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/android/api-level.h:
+
+include/opus_defines.h:
+
+include/opus_types.h:

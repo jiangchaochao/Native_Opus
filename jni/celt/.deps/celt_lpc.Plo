@@ -1,0 +1,163 @@
+celt/celt_lpc.lo: celt/celt_lpc.c config.h celt/celt_lpc.h celt/arch.h \
+ include/opus_types.h \
+ /tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/stdint.h \
+ /tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/_types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/machine/_types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/_wchar_limits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/android/api-level.h \
+ include/opus_defines.h include/opus_types.h celt/cpu_support.h \
+ celt/arm/armcpu.h celt/stack_alloc.h celt/mathops.h celt/entcode.h \
+ /tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h \
+ /tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/limits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/cdefs.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/limits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/linux/limits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/machine/internal_types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/machine/limits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/syslimits.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/asm/page.h celt/ecintrin.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/math.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/linux/posix_types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/linux/stddef.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/linux/compiler.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/asm/posix_types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/asm/types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/linux/types.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/machine/kernel.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/sys/sysmacros.h \
+ celt/os_support.h /tmp/my_toolchain/bin/../sysroot/usr/include/string.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/malloc.h \
+ /tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h \
+ /tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/stdlib.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/alloca.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/strings.h \
+ /tmp/my_toolchain/bin/../sysroot/usr/include/memory.h celt/pitch.h \
+ celt/modes.h celt/celt.h include/opus_custom.h include/opus_defines.h \
+ celt/entenc.h celt/entdec.h celt/mdct.h celt/kiss_fft.h \
+ celt/arm/pitch_arm.h celt/arm/armcpu.h
+
+config.h:
+
+celt/celt_lpc.h:
+
+celt/arch.h:
+
+include/opus_types.h:
+
+/tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/stdint.h:
+
+/tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/_types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/machine/_types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/_wchar_limits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/android/api-level.h:
+
+include/opus_defines.h:
+
+include/opus_types.h:
+
+celt/cpu_support.h:
+
+celt/arm/armcpu.h:
+
+celt/stack_alloc.h:
+
+celt/mathops.h:
+
+celt/entcode.h:
+
+/tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h:
+
+/tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/limits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/limits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/linux/limits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/machine/limits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/asm/page.h:
+
+celt/ecintrin.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/math.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/linux/stddef.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/linux/compiler.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/asm/types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/linux/types.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/machine/kernel.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+celt/os_support.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/string.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/malloc.h:
+
+/tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h:
+
+/tmp/my_toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/stdlib.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/alloca.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/strings.h:
+
+/tmp/my_toolchain/bin/../sysroot/usr/include/memory.h:
+
+celt/pitch.h:
+
+celt/modes.h:
+
+celt/celt.h:
+
+include/opus_custom.h:
+
+include/opus_defines.h:
+
+celt/entenc.h:
+
+celt/entdec.h:
+
+celt/mdct.h:
+
+celt/kiss_fft.h:
+
+celt/arm/pitch_arm.h:
+
+celt/arm/armcpu.h:

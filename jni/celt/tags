@@ -1,0 +1,1352 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ABS16	arch.h	117;"	d
+ABS16	arch.h	181;"	d
+ABS32	arch.h	118;"	d
+ABS32	arch.h	182;"	d
+ADD16	arch.h	208;"	d
+ADD16	fixed_debug.h	236;"	d
+ADD16	fixed_generic.h	112;"	d
+ADD16_	fixed_debug.h	/^static OPUS_INLINE short ADD16_(int a, int b, char *file, int line)$/;"	f
+ADD32	arch.h	210;"	d
+ADD32	fixed_debug.h	282;"	d
+ADD32	fixed_generic.h	116;"	d
+ADD32_	fixed_debug.h	/^static OPUS_INLINE int ADD32_(opus_int64 a, opus_int64 b, char *file, int line)$/;"	f
+ALIGN	stack_alloc.h	136;"	d
+ALIGN	stack_alloc.h	143;"	d
+ALLOC	stack_alloc.h	106;"	d
+ALLOC	stack_alloc.h	108;"	d
+ALLOC	stack_alloc.h	156;"	d
+ALLOC	stack_alloc.h	94;"	d
+ALLOC_NONE	stack_alloc.h	114;"	d
+ALLOC_NONE	stack_alloc.h	158;"	d
+ALLOC_NONE	stack_alloc.h	99;"	d
+ALLOC_STACK	stack_alloc.h	113;"	d
+ALLOC_STACK	stack_alloc.h	139;"	d
+ALLOC_STACK	stack_alloc.h	150;"	d
+ALLOC_STACK	stack_alloc.h	97;"	d
+ALLOC_STEPS	rate.c	246;"	d	file:
+ARCH_H	arch.h	35;"	d
+ARMCPU_H	arm/armcpu.h	29;"	d
+AnalysisInfo	celt.h	/^}AnalysisInfo;$/;"	t	typeref:struct:__anon1
+BANDS_H	bands.h	31;"	d
+BARK_BANDS	modes.c	81;"	d	file:
+BITALLOC_SIZE	modes.c	48;"	d	file:
+BITRES	entcode.h	57;"	d
+CELTDecoder	celt.h	50;"	d
+CELTEncoder	celt.h	49;"	d
+CELTMode	celt.h	51;"	d
+CELT_C	celt.c	34;"	d	file:
+CELT_C	mips/celt_mipsr1.h	37;"	d
+CELT_C	tests/test_unit_cwrs32.c	42;"	d	file:
+CELT_C	tests/test_unit_dft.c	40;"	d	file:
+CELT_C	tests/test_unit_laplace.c	35;"	d	file:
+CELT_C	tests/test_unit_mathops.c	37;"	d	file:
+CELT_C	tests/test_unit_mdct.c	40;"	d	file:
+CELT_C	tests/test_unit_rotation.c	36;"	d	file:
+CELT_DECODER_C	celt_decoder.c	34;"	d	file:
+CELT_ENCODER_C	celt_encoder.c	34;"	d	file:
+CELT_FIR_IMPL	x86/x86_celt_map.c	/^void (*const CELT_FIR_IMPL[OPUS_ARCHMASK + 1])($/;"	v
+CELT_FIXED_GENERIC_MIPSR1_H	mips/fixed_generic_mipsr1.h	34;"	d
+CELT_GET_AND_CLEAR_ERROR	celt.h	85;"	d
+CELT_GET_AND_CLEAR_ERROR_REQUEST	celt.h	84;"	d
+CELT_GET_MODE	celt.h	100;"	d
+CELT_GET_MODE_REQUEST	celt.h	98;"	d
+CELT_H	celt.h	36;"	d
+CELT_INNER_PROD_IMPL	x86/x86_celt_map.c	/^opus_val32 (*const CELT_INNER_PROD_IMPL[OPUS_ARCHMASK + 1])($/;"	v
+CELT_LPC_SSE_H	x86/celt_lpc_sse.h	29;"	d
+CELT_MAX_PULSES	rate.h	35;"	d
+CELT_PITCH_XCORR_IMPL	arm/arm_celt_map.c	/^opus_val32 (*const CELT_PITCH_XCORR_IMPL[OPUS_ARCHMASK+1])(const opus_val16 *,$/;"	v
+CELT_PITCH_XCORR_IMPL	arm/arm_celt_map.c	/^void (*const CELT_PITCH_XCORR_IMPL[OPUS_ARCHMASK+1])(const opus_val16 *,$/;"	v
+CELT_PVQ_U	cwrs.c	196;"	d	file:
+CELT_PVQ_U_DATA	cwrs.c	/^static const opus_uint32 CELT_PVQ_U_DATA[1488]={$/;"	v	file:
+CELT_PVQ_U_ROW	cwrs.c	/^static const opus_uint32 *const CELT_PVQ_U_ROW[15]={$/;"	v	file:
+CELT_PVQ_V	cwrs.c	199;"	d	file:
+CELT_SET_ANALYSIS	celt.h	111;"	d
+CELT_SET_ANALYSIS_REQUEST	celt.h	110;"	d
+CELT_SET_CHANNELS	celt.h	88;"	d
+CELT_SET_CHANNELS_REQUEST	celt.h	87;"	d
+CELT_SET_END_BAND	celt.h	96;"	d
+CELT_SET_END_BAND_REQUEST	celt.h	95;"	d
+CELT_SET_INPUT_CLIPPING	celt.h	82;"	d
+CELT_SET_INPUT_CLIPPING_REQUEST	celt.h	81;"	d
+CELT_SET_PREDICTION	celt.h	79;"	d
+CELT_SET_PREDICTION_REQUEST	celt.h	73;"	d
+CELT_SET_SIGNALLING	celt.h	103;"	d
+CELT_SET_SIGNALLING_REQUEST	celt.h	102;"	d
+CELT_SET_START_BAND	celt.h	93;"	d
+CELT_SET_START_BAND_REQUEST	celt.h	92;"	d
+CELT_SET_TONALITY	celt.h	106;"	d
+CELT_SET_TONALITY_REQUEST	celt.h	105;"	d
+CELT_SET_TONALITY_SLOPE	celt.h	108;"	d
+CELT_SET_TONALITY_SLOPE_REQUEST	celt.h	107;"	d
+CELT_SIG_SCALE	arch.h	49;"	d
+CHECK_OVERFLOW_OP	_kiss_fft_guts.h	123;"	d
+CLT_MDCT_BACKWARD_IMPL	arm/arm_celt_map.c	/^void (*const CLT_MDCT_BACKWARD_IMPL[OPUS_ARCHMASK+1])(const mdct_lookup *l,$/;"	v
+CLT_MDCT_FORWARD_IMPL	arm/arm_celt_map.c	/^void (*const CLT_MDCT_FORWARD_IMPL[OPUS_ARCHMASK+1])(const mdct_lookup *l,$/;"	v
+COMBFILTER_MAXPERIOD	celt.h	192;"	d
+COMBFILTER_MINPERIOD	celt.h	193;"	d
+COMB_FILTER_CONST_IMPL	x86/x86_celt_map.c	/^void (*const COMB_FILTER_CONST_IMPL[OPUS_ARCHMASK + 1])($/;"	v
+CPU_Feature	x86/x86cpu.c	/^typedef struct CPU_Feature{$/;"	s	file:
+CPU_Feature	x86/x86cpu.c	/^} CPU_Feature;$/;"	t	typeref:struct:CPU_Feature	file:
+CPU_SUPPORT_H	cpu_support.h	29;"	d
+CUSTOM_MODES	tests/test_unit_cwrs32.c	37;"	d	file:
+CUSTOM_MODES	tests/test_unit_dft.c	35;"	d	file:
+CUSTOM_MODES	tests/test_unit_mathops.c	34;"	d	file:
+CUSTOM_MODES	tests/test_unit_mdct.c	35;"	d	file:
+CUSTOM_MODES	tests/test_unit_rotation.c	33;"	d	file:
+CWRS_H	cwrs.h	31;"	d
+C_ADD	_kiss_fft_guts.h	127;"	d
+C_ADD	_kiss_fft_guts.h	79;"	d
+C_ADDTO	_kiss_fft_guts.h	139;"	d
+C_ADDTO	_kiss_fft_guts.h	85;"	d
+C_FIXDIV	_kiss_fft_guts.h	116;"	d
+C_FIXDIV	_kiss_fft_guts.h	75;"	d
+C_MUL	_kiss_fft_guts.h	107;"	d
+C_MUL	_kiss_fft_guts.h	60;"	d
+C_MUL	arm/kiss_fft_armv4.h	35;"	d
+C_MUL	arm/kiss_fft_armv4.h	36;"	d
+C_MUL	arm/kiss_fft_armv5e.h	41;"	d
+C_MUL	arm/kiss_fft_armv5e.h	42;"	d
+C_MUL	mips/kiss_fft_mipsr1.h	56;"	d
+C_MUL	mips/kiss_fft_mipsr1.h	57;"	d
+C_MUL4	_kiss_fft_guts.h	114;"	d
+C_MUL4	arm/kiss_fft_armv4.h	63;"	d
+C_MUL4	arm/kiss_fft_armv4.h	64;"	d
+C_MUL4	arm/kiss_fft_armv5e.h	66;"	d
+C_MUL4	arm/kiss_fft_armv5e.h	67;"	d
+C_MULBYSCALAR	_kiss_fft_guts.h	117;"	d
+C_MULBYSCALAR	_kiss_fft_guts.h	68;"	d
+C_MULC	_kiss_fft_guts.h	110;"	d
+C_MULC	_kiss_fft_guts.h	64;"	d
+C_MULC	arm/kiss_fft_armv4.h	91;"	d
+C_MULC	arm/kiss_fft_armv4.h	92;"	d
+C_MULC	arm/kiss_fft_armv5e.h	91;"	d
+C_MULC	arm/kiss_fft_armv5e.h	92;"	d
+C_MULC	mips/kiss_fft_mipsr1.h	70;"	d
+C_MULC	mips/kiss_fft_mipsr1.h	71;"	d
+C_MULC_fun	mips/kiss_fft_mipsr1.h	/^static inline kiss_fft_cpx C_MULC_fun(kiss_fft_cpx a, kiss_twiddle_cpx b) {$/;"	f
+C_MUL_fun	mips/kiss_fft_mipsr1.h	/^static inline kiss_fft_cpx C_MUL_fun(kiss_fft_cpx a, kiss_twiddle_cpx b) {$/;"	f
+C_SUB	_kiss_fft_guts.h	133;"	d
+C_SUB	_kiss_fft_guts.h	82;"	d
+C_SUBFROM	_kiss_fft_guts.h	146;"	d
+C_SUBFROM	_kiss_fft_guts.h	89;"	d
+D0	mathops.h	190;"	d
+D1	mathops.h	191;"	d
+D2	mathops.h	192;"	d
+D3	mathops.h	193;"	d
+DATA_SIZE	tests/test_unit_entropy.c	49;"	d	file:
+DATA_SIZE	tests/test_unit_laplace.c	43;"	d	file:
+DATA_SIZE2	tests/test_unit_entropy.c	50;"	d	file:
+DB_SHIFT	arch.h	107;"	d
+DECODER_RESET_START	celt_decoder.c	79;"	d	file:
+DECODE_BUFFER_SIZE	celt_decoder.c	62;"	d	file:
+DEF_LOGN400	static_modes_fixed.h	43;"	d
+DEF_LOGN400	static_modes_float.h	43;"	d
+DEF_PULSE_CACHE50	static_modes_fixed.h	49;"	d
+DEF_PULSE_CACHE50	static_modes_float.h	49;"	d
+DEF_WINDOW120	static_modes_fixed.h	13;"	d
+DEF_WINDOW120	static_modes_float.h	13;"	d
+DIV32	arch.h	235;"	d
+DIV32	fixed_debug.h	739;"	d
+DIV32	fixed_generic.h	152;"	d
+DIV32_	fixed_debug.h	/^static OPUS_INLINE int DIV32_(opus_int64 a, opus_int64 b, char *file, int line)$/;"	f
+DIV32_16	arch.h	234;"	d
+DIV32_16	fixed_debug.h	703;"	d
+DIV32_16	fixed_generic.h	149;"	d
+DIV32_16_	fixed_debug.h	/^static OPUS_INLINE int DIV32_16_(opus_int64 a, opus_int64 b, char *file, int line)$/;"	f
+DIVSCALAR	_kiss_fft_guts.h	72;"	d
+DUAL_INNER_PROD_IMPL	x86/x86_celt_map.c	/^void (*const DUAL_INNER_PROD_IMPL[OPUS_ARCHMASK + 1])($/;"	v
+EC_CLZ	ecintrin.h	62;"	d
+EC_CLZ	ecintrin.h	66;"	d
+EC_CLZ	ecintrin.h	70;"	d
+EC_CLZ	ecintrin.h	73;"	d
+EC_CLZ0	ecintrin.h	61;"	d
+EC_CLZ0	ecintrin.h	65;"	d
+EC_CLZ0	ecintrin.h	69;"	d
+EC_CLZ0	ecintrin.h	72;"	d
+EC_CODE_BITS	mfrngcod.h	37;"	d
+EC_CODE_BOT	mfrngcod.h	45;"	d
+EC_CODE_EXTRA	mfrngcod.h	47;"	d
+EC_CODE_SHIFT	mfrngcod.h	41;"	d
+EC_CODE_TOP	mfrngcod.h	43;"	d
+EC_ILOG	ecintrin.h	82;"	d
+EC_ILOG	ecintrin.h	85;"	d
+EC_MINI	ecintrin.h	46;"	d
+EC_SYM_BITS	mfrngcod.h	35;"	d
+EC_SYM_MAX	mfrngcod.h	39;"	d
+EC_UINT_BITS	entcode.h	53;"	d
+EC_WINDOW_SIZE	entcode.h	50;"	d
+ENCODER_RESET_START	celt_encoder.c	81;"	d	file:
+ENDIF	arm/celt_pitch_xcorr_arm.s	/^ENDIF$/;"	l
+EPSILON	arch.h	109;"	d
+EPSILON	arch.h	175;"	d
+EXTEND32	arch.h	190;"	d
+EXTEND32	fixed_debug.h	121;"	d
+EXTEND32	fixed_generic.h	81;"	d
+EXTEND32_	fixed_debug.h	/^static OPUS_INLINE int EXTEND32_(int x, char *file, int line)$/;"	f
+EXTRACT16	arch.h	189;"	d
+EXTRACT16	fixed_debug.h	105;"	d
+EXTRACT16	fixed_generic.h	79;"	d
+EXTRACT16_	fixed_debug.h	/^static OPUS_INLINE short EXTRACT16_(int x, char *file, int line)$/;"	f
+FFT_ARM_H	arm/fft_arm.h	35;"	d
+FFT_BITREV120	static_modes_fixed.h	407;"	d
+FFT_BITREV120	static_modes_float.h	407;"	d
+FFT_BITREV240	static_modes_fixed.h	385;"	d
+FFT_BITREV240	static_modes_float.h	385;"	d
+FFT_BITREV480	static_modes_fixed.h	347;"	d
+FFT_BITREV480	static_modes_float.h	347;"	d
+FFT_BITREV60	static_modes_fixed.h	421;"	d
+FFT_BITREV60	static_modes_float.h	421;"	d
+FFT_STATE48000_960_0	static_modes_fixed.h	431;"	d
+FFT_STATE48000_960_0	static_modes_float.h	431;"	d
+FFT_STATE48000_960_1	static_modes_fixed.h	449;"	d
+FFT_STATE48000_960_1	static_modes_float.h	448;"	d
+FFT_STATE48000_960_2	static_modes_fixed.h	467;"	d
+FFT_STATE48000_960_2	static_modes_float.h	465;"	d
+FFT_STATE48000_960_3	static_modes_fixed.h	485;"	d
+FFT_STATE48000_960_3	static_modes_float.h	482;"	d
+FFT_TWIDDLES48000_960	static_modes_fixed.h	103;"	d
+FFT_TWIDDLES48000_960	static_modes_float.h	103;"	d
+FINE_OFFSET	rate.h	39;"	d
+FIXED_ARM64_H	arm/fixed_arm64.h	28;"	d
+FIXED_ARMv4_H	arm/fixed_armv4.h	28;"	d
+FIXED_ARMv5E_H	arm/fixed_armv5e.h	31;"	d
+FIXED_DEBUG_H	fixed_debug.h	33;"	d
+FIXED_GENERIC_H	fixed_generic.h	34;"	d
+FLOAT2INT16	float_cast.h	/^static OPUS_INLINE opus_int16 FLOAT2INT16(float x)$/;"	f
+FLOAT_CAST_H	float_cast.h	30;"	d
+FRAC_MUL16	mathops.h	42;"	d
+Fs	modes.h	/^   opus_int32 Fs;$/;"	m	struct:OpusCustomMode
+GLOBAL_STACK_SIZE	arch.h	246;"	d
+GLOBAL_STACK_SIZE	arch.h	248;"	d
+HALF16	arch.h	205;"	d
+HALF16	fixed_debug.h	230;"	d
+HALF16	fixed_generic.h	108;"	d
+HALF32	arch.h	206;"	d
+HALF32	fixed_debug.h	231;"	d
+HALF32	fixed_generic.h	109;"	d
+HALF_OF	_kiss_fft_guts.h	159;"	d
+HALF_OF	_kiss_fft_guts.h	163;"	d
+HALF_OF	_kiss_fft_guts.h	167;"	d
+HW_AVX	x86/x86cpu.c	/^    int HW_AVX;$/;"	m	struct:CPU_Feature	file:
+HW_SSE	x86/x86cpu.c	/^    int HW_SSE;$/;"	m	struct:CPU_Feature	file:
+HW_SSE2	x86/x86cpu.c	/^    int HW_SSE2;$/;"	m	struct:CPU_Feature	file:
+HW_SSE41	x86/x86cpu.c	/^    int HW_SSE41;$/;"	m	struct:CPU_Feature	file:
+IF	arm/celt_pitch_xcorr_arm.s	/^IF OPUS_ARM_MAY_HAVE_EDSP$/;"	l
+IF	arm/celt_pitch_xcorr_arm.s	/^IF OPUS_ARM_MAY_HAVE_NEON$/;"	l
+IMAX	arch.h	77;"	d
+IMIN	arch.h	76;"	d
+IMUL32	arch.h	70;"	d
+KF_SUFFIX	kiss_fft.h	61;"	d
+KISS_FFT_ARMv4_H	arm/kiss_fft_armv4.h	27;"	d
+KISS_FFT_ARMv5E_H	arm/kiss_fft_armv5e.h	27;"	d
+KISS_FFT_COS	_kiss_fft_guts.h	157;"	d
+KISS_FFT_COS	_kiss_fft_guts.h	161;"	d
+KISS_FFT_COS	_kiss_fft_guts.h	165;"	d
+KISS_FFT_GUTS_H	_kiss_fft_guts.h	27;"	d
+KISS_FFT_H	kiss_fft.h	30;"	d
+KISS_FFT_MALLOC	kiss_fft.h	44;"	d
+KISS_FFT_MALLOC	kiss_fft.h	46;"	d
+KISS_FFT_MIPSR1_H	mips/kiss_fft_mipsr1.h	27;"	d
+KISS_FFT_SIN	_kiss_fft_guts.h	158;"	d
+KISS_FFT_SIN	_kiss_fft_guts.h	162;"	d
+KISS_FFT_SIN	_kiss_fft_guts.h	166;"	d
+KMAX	tests/test_unit_cwrs32.c	52;"	d	file:
+L1	mathops.c	137;"	d	file:
+L1	mathops.c	151;"	d	file:
+L2	mathops.c	138;"	d	file:
+L2	mathops.c	152;"	d	file:
+L3	mathops.c	139;"	d	file:
+L3	mathops.c	153;"	d	file:
+L4	mathops.c	140;"	d	file:
+L4	mathops.c	154;"	d	file:
+LAPLACE_LOG_MINP	laplace.c	37;"	d	file:
+LAPLACE_MINP	laplace.c	38;"	d	file:
+LAPLACE_NMIN	laplace.c	41;"	d	file:
+LDRD_CONS	arm/kiss_fft_armv5e.h	36;"	d
+LDRD_CONS	arm/kiss_fft_armv5e.h	38;"	d
+LINE	arm/arm2gnu.pl	/^LINE:$/;"	l
+LOG2_FRAC_TABLE	rate.c	/^static const unsigned char LOG2_FRAC_TABLE[24]={$/;"	v	file:
+LOG_MAX_PSEUDO	rate.h	33;"	d
+LPC_ORDER	celt_lpc.h	38;"	d
+M1	mathops.h	221;"	d
+M1	mathops.h	233;"	d
+M2	mathops.h	222;"	d
+M2	mathops.h	234;"	d
+M3	mathops.h	223;"	d
+M3	mathops.h	235;"	d
+M4	mathops.h	224;"	d
+M4	mathops.h	236;"	d
+MAC16_16	arch.h	214;"	d
+MAC16_16	arm/fixed_armv5e.h	103;"	d
+MAC16_16	arm/fixed_armv5e.h	116;"	d
+MAC16_16	fixed_debug.h	429;"	d
+MAC16_16	fixed_generic.h	128;"	d
+MAC16_16_armv5e	arm/fixed_armv5e.h	/^static OPUS_INLINE opus_val32 MAC16_16_armv5e(opus_val32 c, opus_val16 a,$/;"	f
+MAC16_32_Q15	arch.h	221;"	d
+MAC16_32_Q15	arm/fixed_armv4.h	68;"	d
+MAC16_32_Q15	arm/fixed_armv4.h	69;"	d
+MAC16_32_Q15	arm/fixed_armv5e.h	70;"	d
+MAC16_32_Q15	arm/fixed_armv5e.h	83;"	d
+MAC16_32_Q15	fixed_debug.h	498;"	d
+MAC16_32_Q15	fixed_generic.h	132;"	d
+MAC16_32_Q15_armv5e	arm/fixed_armv5e.h	/^static OPUS_INLINE opus_val32 MAC16_32_Q15_armv5e(opus_val32 c, opus_val16 a,$/;"	f
+MAC16_32_Q16	arch.h	222;"	d
+MAC16_32_Q16	arm/fixed_armv4.h	73;"	d
+MAC16_32_Q16	arm/fixed_armv4.h	74;"	d
+MAC16_32_Q16	arm/fixed_armv5e.h	100;"	d
+MAC16_32_Q16	arm/fixed_armv5e.h	87;"	d
+MAC16_32_Q16	fixed_debug.h	499;"	d
+MAC16_32_Q16	fixed_generic.h	136;"	d
+MAC16_32_Q16_armv5e	arm/fixed_armv5e.h	/^static OPUS_INLINE opus_val32 MAC16_32_Q16_armv5e(opus_val32 c, opus_val16 a,$/;"	f
+MATHOPS_H	mathops.h	35;"	d
+MAX	_kiss_fft_guts.h	30;"	d
+MAX16	arch.h	73;"	d
+MAX32	arch.h	75;"	d
+MAXFACTORS	kiss_fft.h	75;"	d
+MAX_FINE_BITS	rate.h	37;"	d
+MAX_PACKET	opus_custom_demo.c	40;"	d	file:
+MAX_PERIOD	modes.h	40;"	d
+MAX_PSEUDO	rate.h	32;"	d
+MAX_SIZE	tests/test_unit_rotation.c	78;"	d	file:
+MAY_HAVE_AVX	x86/x86cpu.h	50;"	d
+MAY_HAVE_AVX	x86/x86cpu.h	52;"	d
+MAY_HAVE_EDSP	arm/armcpu.h	32;"	d
+MAY_HAVE_EDSP	arm/armcpu.h	34;"	d
+MAY_HAVE_MEDIA	arm/armcpu.h	38;"	d
+MAY_HAVE_MEDIA	arm/armcpu.h	40;"	d
+MAY_HAVE_NEON	arm/armcpu.h	44;"	d
+MAY_HAVE_NEON	arm/armcpu.h	46;"	d
+MAY_HAVE_SSE	x86/x86cpu.h	32;"	d
+MAY_HAVE_SSE	x86/x86cpu.h	34;"	d
+MAY_HAVE_SSE2	x86/x86cpu.h	38;"	d
+MAY_HAVE_SSE2	x86/x86cpu.h	40;"	d
+MAY_HAVE_SSE4_1	x86/x86cpu.h	44;"	d
+MAY_HAVE_SSE4_1	x86/x86cpu.h	46;"	d
+MDCT_ARM_H	arm/mdct_arm.h	34;"	d
+MDCT_H	mdct.h	43;"	d
+MDCT_TWIDDLES960	static_modes_fixed.h	505;"	d
+MDCT_TWIDDLES960	static_modes_float.h	501;"	d
+MIN	_kiss_fft_guts.h	29;"	d
+MIN16	arch.h	72;"	d
+MIN32	arch.h	74;"	d
+MODES_H	modes.h	31;"	d
+MSWAP	celt_encoder.c	870;"	d	file:
+MULT16_16	arch.h	213;"	d
+MULT16_16	arm/fixed_armv5e.h	119;"	d
+MULT16_16	arm/fixed_armv5e.h	131;"	d
+MULT16_16	fixed_debug.h	406;"	d
+MULT16_16	fixed_generic.h	125;"	d
+MULT16_16SU	fixed_debug.h	44;"	d
+MULT16_16SU	fixed_generic.h	37;"	d
+MULT16_16_	fixed_debug.h	/^static OPUS_INLINE int MULT16_16_(int a, int b, char *file, int line)$/;"	f
+MULT16_16_16	arch.h	212;"	d
+MULT16_16_16	fixed_debug.h	/^static OPUS_INLINE short MULT16_16_16(int a, int b)$/;"	f
+MULT16_16_16	fixed_generic.h	121;"	d
+MULT16_16_P13	arch.h	230;"	d
+MULT16_16_P13	fixed_debug.h	/^static OPUS_INLINE short MULT16_16_P13(int a, int b)$/;"	f
+MULT16_16_P13	fixed_generic.h	144;"	d
+MULT16_16_P14	arch.h	231;"	d
+MULT16_16_P14	fixed_debug.h	/^static OPUS_INLINE short MULT16_16_P14(int a, int b)$/;"	f
+MULT16_16_P14	fixed_generic.h	145;"	d
+MULT16_16_P15	arch.h	229;"	d
+MULT16_16_P15	fixed_debug.h	/^static OPUS_INLINE short MULT16_16_P15(int a, int b)$/;"	f
+MULT16_16_P15	fixed_generic.h	146;"	d
+MULT16_16_P15	mips/fixed_generic_mipsr1.h	/^static inline int MULT16_16_P15(int a, int b)$/;"	f
+MULT16_16_P15	mips/fixed_generic_mipsr1.h	117;"	d
+MULT16_16_Q11	arch.h	225;"	d
+MULT16_16_Q11	fixed_generic.h	139;"	d
+MULT16_16_Q11_32	arch.h	224;"	d
+MULT16_16_Q11_32	fixed_debug.h	/^static OPUS_INLINE int MULT16_16_Q11_32(int a, int b)$/;"	f
+MULT16_16_Q11_32	fixed_generic.h	138;"	d
+MULT16_16_Q13	arch.h	226;"	d
+MULT16_16_Q13	fixed_debug.h	/^static OPUS_INLINE short MULT16_16_Q13(int a, int b)$/;"	f
+MULT16_16_Q13	fixed_generic.h	140;"	d
+MULT16_16_Q14	arch.h	227;"	d
+MULT16_16_Q14	fixed_debug.h	/^static OPUS_INLINE short MULT16_16_Q14(int a, int b)$/;"	f
+MULT16_16_Q14	fixed_generic.h	141;"	d
+MULT16_16_Q15	arch.h	228;"	d
+MULT16_16_Q15	fixed_debug.h	588;"	d
+MULT16_16_Q15	fixed_generic.h	142;"	d
+MULT16_16_Q15_	fixed_debug.h	/^static OPUS_INLINE short MULT16_16_Q15_(int a, int b, char *file, int line)$/;"	f
+MULT16_16_Q15_ADD	mips/fixed_generic_mipsr1.h	/^static inline int MULT16_16_Q15_ADD(int a, int b, int c, int d) {$/;"	f
+MULT16_16_Q15_ADD	mips/fixed_generic_mipsr1.h	54;"	d
+MULT16_16_Q15_SUB	mips/fixed_generic_mipsr1.h	/^static inline int MULT16_16_Q15_SUB(int a, int b, int c, int d) {$/;"	f
+MULT16_16_Q15_SUB	mips/fixed_generic_mipsr1.h	63;"	d
+MULT16_16_armv5e	arm/fixed_armv5e.h	/^static OPUS_INLINE opus_val32 MULT16_16_armv5e(opus_val16 a, opus_val16 b)$/;"	f
+MULT16_32_P16	arch.h	232;"	d
+MULT16_32_P16	fixed_debug.h	50;"	d
+MULT16_32_P16	fixed_generic.h	48;"	d
+MULT16_32_P16	fixed_generic.h	50;"	d
+MULT16_32_P16	mips/fixed_generic_mipsr1.h	/^static inline int MULT16_32_P16(int a, int b)$/;"	f
+MULT16_32_P16	mips/fixed_generic_mipsr1.h	82;"	d
+MULT16_32_PX	fixed_debug.h	464;"	d
+MULT16_32_PX_	fixed_debug.h	/^static OPUS_INLINE int MULT16_32_PX_(int a, opus_int64 b, int Q, char *file, int line)$/;"	f
+MULT16_32_Q15	arch.h	216;"	d
+MULT16_32_Q15	arm/fixed_armv4.h	48;"	d
+MULT16_32_Q15	arm/fixed_armv4.h	62;"	d
+MULT16_32_Q15	arm/fixed_armv5e.h	52;"	d
+MULT16_32_Q15	arm/fixed_armv5e.h	64;"	d
+MULT16_32_Q15	fixed_debug.h	497;"	d
+MULT16_32_Q15	fixed_generic.h	55;"	d
+MULT16_32_Q15	fixed_generic.h	57;"	d
+MULT16_32_Q15	mips/fixed_generic_mipsr1.h	/^static inline int MULT16_32_Q15(int a, int b)$/;"	f
+MULT16_32_Q15	mips/fixed_generic_mipsr1.h	91;"	d
+MULT16_32_Q15_ADD	mips/fixed_generic_mipsr1.h	/^static inline int MULT16_32_Q15_ADD(int a, int b, int c, int d) {$/;"	f
+MULT16_32_Q15_ADD	mips/fixed_generic_mipsr1.h	36;"	d
+MULT16_32_Q15_SUB	mips/fixed_generic_mipsr1.h	/^static inline int MULT16_32_Q15_SUB(int a, int b, int c, int d) {$/;"	f
+MULT16_32_Q15_SUB	mips/fixed_generic_mipsr1.h	45;"	d
+MULT16_32_Q15_armv4	arm/fixed_armv4.h	/^static OPUS_INLINE opus_val32 MULT16_32_Q15_armv4(opus_val16 a, opus_val32 b)$/;"	f
+MULT16_32_Q15_armv5e	arm/fixed_armv5e.h	/^static OPUS_INLINE opus_val32 MULT16_32_Q15_armv5e(opus_val16 a, opus_val32 b)$/;"	f
+MULT16_32_Q16	arch.h	217;"	d
+MULT16_32_Q16	arm/fixed_armv4.h	31;"	d
+MULT16_32_Q16	arm/fixed_armv4.h	44;"	d
+MULT16_32_Q16	arm/fixed_armv5e.h	36;"	d
+MULT16_32_Q16	arm/fixed_armv5e.h	48;"	d
+MULT16_32_Q16	fixed_debug.h	48;"	d
+MULT16_32_Q16	fixed_generic.h	41;"	d
+MULT16_32_Q16	fixed_generic.h	43;"	d
+MULT16_32_Q16	mips/fixed_generic_mipsr1.h	/^static inline int MULT16_32_Q16(int a, int b)$/;"	f
+MULT16_32_Q16	mips/fixed_generic_mipsr1.h	73;"	d
+MULT16_32_Q16_armv4	arm/fixed_armv4.h	/^static OPUS_INLINE opus_val32 MULT16_32_Q16_armv4(opus_val16 a, opus_val32 b)$/;"	f
+MULT16_32_Q16_armv5e	arm/fixed_armv5e.h	/^static OPUS_INLINE opus_val32 MULT16_32_Q16_armv5e(opus_val16 a, opus_val32 b)$/;"	f
+MULT16_32_QX	fixed_debug.h	431;"	d
+MULT16_32_QX_	fixed_debug.h	/^static OPUS_INLINE int MULT16_32_QX_(int a, opus_int64 b, int Q, char *file, int line)$/;"	f
+MULT32_32_Q31	arch.h	219;"	d
+MULT32_32_Q31	arm/fixed_armv4.h	77;"	d
+MULT32_32_Q31	arm/fixed_armv4.h	78;"	d
+MULT32_32_Q31	fixed_debug.h	45;"	d
+MULT32_32_Q31	fixed_generic.h	62;"	d
+MULT32_32_Q31	fixed_generic.h	64;"	d
+MULT32_32_Q31	mips/fixed_generic_mipsr1.h	/^static inline int MULT32_32_Q31(int a, int b)$/;"	f
+MULT32_32_Q31	mips/fixed_generic_mipsr1.h	100;"	d
+M_LOG2E	tests/test_unit_entropy.c	47;"	d	file:
+M_PI	modes.c	74;"	d	file:
+M_PI	tests/test_unit_dft.c	66;"	d	file:
+M_PI	tests/test_unit_mdct.c	66;"	d	file:
+NDIMS	tests/test_unit_cwrs32.c	56;"	d	file:
+NDIMS	tests/test_unit_cwrs32.c	74;"	d	file:
+NE10_FFTSCALED_SUPPORT_MAX	arm/celt_ne10_fft.c	65;"	d	file:
+NE10_FFT_ALLOC_C2C_TYPE_NEON	arm/celt_ne10_fft.c	46;"	d	file:
+NE10_FFT_ALLOC_C2C_TYPE_NEON	arm/celt_ne10_fft.c	53;"	d	file:
+NE10_FFT_C2C_1D_TYPE_NEON	arm/celt_ne10_fft.c	51;"	d	file:
+NE10_FFT_C2C_1D_TYPE_NEON	arm/celt_ne10_fft.c	59;"	d	file:
+NE10_FFT_CFG_TYPE_T	arm/celt_ne10_fft.c	47;"	d	file:
+NE10_FFT_CFG_TYPE_T	arm/celt_ne10_fft.c	54;"	d	file:
+NE10_FFT_CPX_TYPE_T	arm/celt_ne10_fft.c	50;"	d	file:
+NE10_FFT_CPX_TYPE_T	arm/celt_ne10_fft.c	58;"	d	file:
+NE10_FFT_DESTROY_C2C_TYPE	arm/celt_ne10_fft.c	49;"	d	file:
+NE10_FFT_DESTROY_C2C_TYPE	arm/celt_ne10_fft.c	56;"	d	file:
+NE10_FFT_DESTROY_C2C_TYPE	arm/celt_ne10_fft.c	57;"	d	file:
+NE10_FFT_PARAMS48000_960	static_modes_fixed_arm_ne10.h	7;"	d
+NE10_FFT_PARAMS48000_960	static_modes_float_arm_ne10.h	7;"	d
+NE10_FFT_STATE_TYPE_T	arm/celt_ne10_fft.c	48;"	d	file:
+NE10_FFT_STATE_TYPE_T	arm/celt_ne10_fft.c	55;"	d	file:
+NEG16	arch.h	187;"	d
+NEG16	fixed_debug.h	/^static OPUS_INLINE short NEG16(int x)$/;"	f
+NEG16	fixed_generic.h	74;"	d
+NEG32	arch.h	188;"	d
+NEG32	fixed_debug.h	/^static OPUS_INLINE int NEG32(opus_int64 x)$/;"	f
+NEG32	fixed_generic.h	76;"	d
+NMAX	tests/test_unit_cwrs32.c	51;"	d	file:
+NON_STATIC_COMB_FILTER_CONST_C	x86/pitch_sse.h	187;"	d
+NORM_ALIASING_HACK	celt_decoder.c	55;"	d	file:
+NORM_SCALING	arch.h	105;"	d
+NORM_SCALING	arch.h	173;"	d
+OPUS_ARCHMASK	cpu_support.h	44;"	d
+OPUS_ARCHMASK	cpu_support.h	59;"	d
+OPUS_ARCHMASK	cpu_support.h	63;"	d
+OPUS_ARCH_ARM_EDSP	arm/armcpu.h	71;"	d
+OPUS_ARCH_ARM_MEDIA	arm/armcpu.h	72;"	d
+OPUS_ARCH_ARM_NEON	arm/armcpu.h	73;"	d
+OPUS_ARCH_ARM_V4	arm/armcpu.h	70;"	d
+OPUS_ARM_MAY_HAVE_EDSP	arm/armopts.s	/^OPUS_ARM_MAY_HAVE_EDSP  * $/;"	l
+OPUS_ARM_MAY_HAVE_MEDIA	arm/armopts.s	/^OPUS_ARM_MAY_HAVE_MEDIA * $/;"	l
+OPUS_ARM_MAY_HAVE_NEON	arm/armopts.s	/^OPUS_ARM_MAY_HAVE_NEON  * $/;"	l
+OPUS_CHECK_ARRAY	stack_alloc.h	166;"	d
+OPUS_CHECK_ARRAY	stack_alloc.h	176;"	d
+OPUS_CHECK_ARRAY_COND	stack_alloc.h	168;"	d
+OPUS_CHECK_VALUE	stack_alloc.h	167;"	d
+OPUS_CHECK_VALUE	stack_alloc.h	177;"	d
+OPUS_CHECK_VALUE_COND	stack_alloc.h	169;"	d
+OPUS_CLEAR	os_support.h	83;"	d
+OPUS_COPY	os_support.h	72;"	d
+OPUS_CPU_ARM_EDSP_FLAG	arm/armcpu.c	43;"	d	file:
+OPUS_CPU_ARM_MEDIA_FLAG	arm/armcpu.c	44;"	d	file:
+OPUS_CPU_ARM_NEON_FLAG	arm/armcpu.c	45;"	d	file:
+OPUS_CPU_ARM_V4_FLAG	arm/armcpu.c	42;"	d	file:
+OPUS_CUSTOM_NOSTATIC	celt.h	145;"	d
+OPUS_CUSTOM_NOSTATIC	celt.h	147;"	d
+OPUS_FAST_INT64	arch.h	85;"	d
+OPUS_FAST_INT64	arch.h	87;"	d
+OPUS_FFT	arm/arm_celt_map.c	/^void (*const OPUS_FFT[OPUS_ARCHMASK+1])(const kiss_fft_state *cfg,$/;"	v
+OPUS_FFT_ALLOC_ARCH_IMPL	arm/arm_celt_map.c	/^int (*const OPUS_FFT_ALLOC_ARCH_IMPL[OPUS_ARCHMASK+1])(kiss_fft_state *st) = {$/;"	v
+OPUS_FFT_FREE_ARCH_IMPL	arm/arm_celt_map.c	/^void (*const OPUS_FFT_FREE_ARCH_IMPL[OPUS_ARCHMASK+1])(kiss_fft_state *st) = {$/;"	v
+OPUS_FPRINTF	stack_alloc.h	171;"	d
+OPUS_FPRINTF	stack_alloc.h	179;"	d
+OPUS_FRAMESIZE_VARIABLE	celt.h	70;"	d
+OPUS_IFFT	arm/arm_celt_map.c	/^void (*const OPUS_IFFT[OPUS_ARCHMASK+1])(const kiss_fft_state *cfg,$/;"	v
+OPUS_MOVE	os_support.h	78;"	d
+OPUS_PRINT_INT	stack_alloc.h	170;"	d
+OPUS_PRINT_INT	stack_alloc.h	178;"	d
+OPUS_SET_ENERGY_MASK	celt.h	117;"	d
+OPUS_SET_ENERGY_MASK_REQUEST	celt.h	116;"	d
+OPUS_SET_LFE	celt.h	114;"	d
+OPUS_SET_LFE_REQUEST	celt.h	113;"	d
+OP_CVTEPI16_EPI32_M64	x86/x86cpu.h	86;"	d
+OP_CVTEPI16_EPI32_M64	x86/x86cpu.h	89;"	d
+OP_CVTEPI8_EPI32_M32	x86/x86cpu.h	78;"	d
+OP_CVTEPI8_EPI32_M32	x86/x86cpu.h	81;"	d
+OS_SUPPORT_H	os_support.h	32;"	d
+OVERRIDE_CELT_FIR	x86/celt_lpc_sse.h	36;"	d
+OVERRIDE_CELT_INNER_PROD	x86/pitch_sse.h	103;"	d
+OVERRIDE_CELT_INNER_PROD	x86/pitch_sse.h	108;"	d
+OVERRIDE_CELT_INNER_PROD	x86/pitch_sse.h	113;"	d
+OVERRIDE_CELT_INNER_PROD	x86/pitch_sse.h	126;"	d
+OVERRIDE_COMB_FILTER_CONST	x86/pitch_sse.h	135;"	d
+OVERRIDE_DUAL_INNER_PROD	mips/pitch_mipsr1.h	37;"	d
+OVERRIDE_DUAL_INNER_PROD	x86/pitch_sse.h	134;"	d
+OVERRIDE_FFT	static_modes_fixed.h	8;"	d
+OVERRIDE_FFT	static_modes_float.h	8;"	d
+OVERRIDE_OPUS_FFT	arm/fft_arm.h	54;"	d
+OVERRIDE_OPUS_MDCT	arm/mdct_arm.h	52;"	d
+OVERRIDE_PITCH_XCORR	arm/pitch_arm.h	111;"	d
+OVERRIDE_PITCH_XCORR	arm/pitch_arm.h	118;"	d
+OVERRIDE_PITCH_XCORR	arm/pitch_arm.h	56;"	d
+OVERRIDE_PITCH_XCORR	arm/pitch_arm.h	64;"	d
+OVERRIDE_XCORR_KERNEL	arm/pitch_arm.h	87;"	d
+OVERRIDE_XCORR_KERNEL	arm/pitch_arm.h	92;"	d
+OVERRIDE_XCORR_KERNEL	mips/pitch_mipsr1.h	157;"	d
+OVERRIDE_XCORR_KERNEL	x86/pitch_sse.h	57;"	d
+OVERRIDE_XCORR_KERNEL	x86/pitch_sse.h	62;"	d
+OVERRIDE_XCORR_KERNEL	x86/pitch_sse.h	74;"	d
+OVERRIDE_clt_mdct_backward	mips/mdct_mipsr1.h	185;"	d
+OVERRIDE_clt_mdct_forward	mips/mdct_mipsr1.h	59;"	d
+OVERRIDE_comb_filter	mips/celt_mipsr1.h	56;"	d
+OVERRIDE_kf_bfly5	mips/kiss_fft_mipsr1.h	87;"	d
+OVERRIDE_renormalise_vector	mips/vq_mipsr1.h	71;"	d
+OVERRIDE_vq_exp_rotation1	mips/vq_mipsr1.h	44;"	d
+OpusCustomDecoder	celt_decoder.c	/^struct OpusCustomDecoder {$/;"	s	file:
+OpusCustomEncoder	celt_encoder.c	/^struct OpusCustomEncoder {$/;"	s	file:
+OpusCustomMode	modes.h	/^struct OpusCustomMode {$/;"	s
+PACKAGE_VERSION	celt.c	54;"	d	file:
+PI	mathops.h	83;"	d
+PITCH_ARM_H	arm/pitch_arm.h	29;"	d
+PITCH_H	pitch.h	35;"	d
+PITCH_MIPSR1_H	mips/pitch_mipsr1.h	35;"	d
+PITCH_SSE_H	x86/pitch_sse.h	34;"	d
+PLC_H	celt_lpc.h	29;"	d
+PLC_PITCH_LAG_MAX	celt_decoder.c	393;"	d	file:
+PLC_PITCH_LAG_MIN	celt_decoder.c	396;"	d	file:
+PRESUME_EDSP	arm/armcpu.h	50;"	d
+PRESUME_EDSP	arm/armcpu.h	52;"	d
+PRESUME_MEDIA	arm/armcpu.h	56;"	d
+PRESUME_MEDIA	arm/armcpu.h	58;"	d
+PRESUME_NEON	arm/armcpu.h	62;"	d
+PRESUME_NEON	arm/armcpu.h	64;"	d
+PRINT_MIPS	arch.h	90;"	d
+PRINT_MIPS	fixed_debug.h	781;"	d
+PRINT_MIPS	fixed_debug.h	782;"	d
+PSHR	arch.h	198;"	d
+PSHR	fixed_debug.h	60;"	d
+PSHR	fixed_generic.h	100;"	d
+PSHR32	arch.h	195;"	d
+PSHR32	fixed_debug.h	226;"	d
+PSHR32	fixed_generic.h	93;"	d
+PSHR32	mips/fixed_generic_mipsr1.h	/^static inline int PSHR32(int a, int shift)$/;"	f
+PSHR32	mips/fixed_generic_mipsr1.h	109;"	d
+PUSH	stack_alloc.h	137;"	d
+PUSH	stack_alloc.h	144;"	d
+PulseCache	modes.h	/^} PulseCache;$/;"	t	typeref:struct:__anon2
+Q15ONE	arch.h	101;"	d
+Q15ONE	arch.h	171;"	d
+Q15_ONE	arch.h	112;"	d
+Q15_ONE	arch.h	178;"	d
+QCONST16	arch.h	184;"	d
+QCONST16	fixed_debug.h	52;"	d
+QCONST16	fixed_generic.h	68;"	d
+QCONST32	arch.h	185;"	d
+QCONST32	fixed_debug.h	53;"	d
+QCONST32	fixed_generic.h	71;"	d
+QTHETA_OFFSET	rate.h	40;"	d
+QTHETA_OFFSET_TWOPHASE	rate.h	41;"	d
+QUANT_BANDS	quant_bands.h	30;"	d
+RATE_H	rate.h	30;"	d
+RESTORE_STACK	stack_alloc.h	112;"	d
+RESTORE_STACK	stack_alloc.h	138;"	d
+RESTORE_STACK	stack_alloc.h	148;"	d
+RESTORE_STACK	stack_alloc.h	96;"	d
+ROUND16	arch.h	204;"	d
+ROUND16	fixed_debug.h	229;"	d
+ROUND16	fixed_generic.h	106;"	d
+SAMP_MAX	_kiss_fft_guts.h	51;"	d
+SAMP_MIN	_kiss_fft_guts.h	55;"	d
+SAT16	arch.h	/^static OPUS_INLINE opus_int16 SAT16(opus_int32 x) {$/;"	f
+SATURATE	arch.h	201;"	d
+SATURATE	fixed_debug.h	/^static OPUS_INLINE int SATURATE(int a, int b)$/;"	f
+SATURATE	fixed_generic.h	101;"	d
+SATURATE16	arch.h	202;"	d
+SATURATE16	fixed_debug.h	/^static OPUS_INLINE opus_int16 SATURATE16(opus_int32 a)$/;"	f
+SATURATE16	fixed_generic.h	103;"	d
+SAVE_STACK	stack_alloc.h	111;"	d
+SAVE_STACK	stack_alloc.h	157;"	d
+SAVE_STACK	stack_alloc.h	95;"	d
+SCALEIN	arch.h	114;"	d
+SCALEIN	arch.h	237;"	d
+SCALEOUT	arch.h	115;"	d
+SCALEOUT	arch.h	238;"	d
+SHL	arch.h	200;"	d
+SHL	fixed_generic.h	99;"	d
+SHL16	arch.h	192;"	d
+SHL16	fixed_debug.h	159;"	d
+SHL16	fixed_generic.h	86;"	d
+SHL16_	fixed_debug.h	/^static OPUS_INLINE short SHL16_(int a, int shift, char *file, int line)$/;"	f
+SHL32	arch.h	194;"	d
+SHL32	fixed_debug.h	203;"	d
+SHL32	fixed_generic.h	90;"	d
+SHL32_	fixed_debug.h	/^static OPUS_INLINE int SHL32_(opus_int64 a, int shift, char *file, int line)$/;"	f
+SHR	arch.h	199;"	d
+SHR	fixed_debug.h	59;"	d
+SHR	fixed_generic.h	98;"	d
+SHR16	arch.h	191;"	d
+SHR16	fixed_debug.h	137;"	d
+SHR16	fixed_generic.h	84;"	d
+SHR16_	fixed_debug.h	/^static OPUS_INLINE short SHR16_(int a, int shift, char *file, int line)$/;"	f
+SHR32	arch.h	193;"	d
+SHR32	fixed_debug.h	/^static OPUS_INLINE int SHR32(opus_int64 a, int shift)$/;"	f
+SHR32	fixed_generic.h	88;"	d
+SIG2WORD16	arch.h	240;"	d
+SIG2WORD16	arm/fixed_arm64.h	32;"	d
+SIG2WORD16	arm/fixed_arm64.h	33;"	d
+SIG2WORD16	arm/fixed_armv5e.h	135;"	d
+SIG2WORD16	arm/fixed_armv5e.h	147;"	d
+SIG2WORD16	fixed_debug.h	778;"	d
+SIG2WORD16	fixed_generic.h	165;"	d
+SIG2WORD16_armv6	arm/fixed_armv5e.h	/^static OPUS_INLINE opus_val16 SIG2WORD16_armv6(opus_val32 x)$/;"	f
+SIG2WORD16_generic	fixed_debug.h	/^static OPUS_INLINE opus_val16 SIG2WORD16_generic(celt_sig x)$/;"	f
+SIG2WORD16_generic	fixed_generic.h	/^static OPUS_INLINE opus_val16 SIG2WORD16_generic(celt_sig x)$/;"	f
+SIG_SHIFT	arch.h	103;"	d
+SKIP_CONFIG_H	tests/test_unit_dft.c	32;"	d	file:
+SKIP_CONFIG_H	tests/test_unit_mdct.c	32;"	d	file:
+SMALL_DIV_TABLE	entcode.c	/^const opus_uint32 SMALL_DIV_TABLE[129] = {$/;"	v
+SPREAD_AGGRESSIVE	bands.h	68;"	d
+SPREAD_LIGHT	bands.h	66;"	d
+SPREAD_NONE	bands.h	65;"	d
+SPREAD_NORMAL	bands.h	67;"	d
+STACK_ALLOC_H	stack_alloc.h	33;"	d
+SUB16	arch.h	209;"	d
+SUB16	fixed_debug.h	259;"	d
+SUB16	fixed_generic.h	114;"	d
+SUB16_	fixed_debug.h	/^static OPUS_INLINE short SUB16_(int a, int b, char *file, int line)$/;"	f
+SUB32	arch.h	211;"	d
+SUB32	fixed_debug.h	305;"	d
+SUB32	fixed_generic.h	118;"	d
+SUB32_	fixed_debug.h	/^static OPUS_INLINE int SUB32_(opus_int64 a, opus_int64 b, char *file, int line)$/;"	f
+S_MUL	_kiss_fft_guts.h	106;"	d
+S_MUL	_kiss_fft_guts.h	58;"	d
+S_MUL_ADD	mips/kiss_fft_mipsr1.h	/^static inline int S_MUL_ADD(int a, int b, int c, int d) {$/;"	f
+S_MUL_ADD	mips/kiss_fft_mipsr1.h	35;"	d
+S_MUL_ADD	mips/kiss_fft_mipsr1.h	38;"	d
+S_MUL_SUB	mips/kiss_fft_mipsr1.h	/^static inline int S_MUL_SUB(int a, int b, int c, int d) {$/;"	f
+S_MUL_SUB	mips/kiss_fft_mipsr1.h	36;"	d
+S_MUL_SUB	mips/kiss_fft_mipsr1.h	47;"	d
+TEST_CUSTOM_MODES	tests/test_unit_cwrs32.c	39;"	d	file:
+TEST_UNIT_DFT_C	tests/test_unit_dft.c	41;"	d	file:
+TOTAL_MODES	static_modes_fixed.h	889;"	d
+TOTAL_MODES	static_modes_float.h	885;"	d
+TRIG_UPSCALE	_kiss_fft_guts.h	53;"	d
+TWID_MAX	_kiss_fft_guts.h	52;"	d
+UADD32	arch.h	78;"	d
+UADD32	fixed_debug.h	328;"	d
+UADD32	fixed_debug.h	329;"	d
+UADD32_	fixed_debug.h	/^static OPUS_INLINE unsigned int UADD32_(opus_uint64 a, opus_uint64 b, char *file, int line)$/;"	f
+USE_SMALL_DIV_TABLE	entcode.h	40;"	d
+USUB32	arch.h	79;"	d
+USUB32	fixed_debug.h	352;"	d
+USUB32	fixed_debug.h	353;"	d
+USUB32_	fixed_debug.h	/^static OPUS_INLINE unsigned int USUB32_(opus_uint64 a, opus_uint64 b, char *file, int line)$/;"	f
+VARDECL	stack_alloc.h	103;"	d
+VARDECL	stack_alloc.h	155;"	d
+VARDECL	stack_alloc.h	93;"	d
+VERIFY_INT	fixed_debug.h	56;"	d
+VERIFY_SHORT	fixed_debug.h	55;"	d
+VERIFY_UINT	fixed_debug.h	57;"	d
+VERY_LARGE16	arch.h	111;"	d
+VERY_LARGE16	arch.h	177;"	d
+VERY_SMALL	arch.h	110;"	d
+VERY_SMALL	arch.h	176;"	d
+VQ_H	vq.h	34;"	d
+VSHR32	arch.h	196;"	d
+VSHR32	fixed_debug.h	227;"	d
+VSHR32	fixed_generic.h	95;"	d
+WIN32_EXTRA_LEAN	arm/armcpu.c	50;"	d	file:
+WIN32_LEAN_AND_MEAN	arm/armcpu.c	49;"	d	file:
+WORD	tests/test_unit_mathops.c	81;"	d	file:
+WORD	tests/test_unit_mathops.c	83;"	d	file:
+X86CPU_H	x86/x86cpu.h	29;"	d
+XCORR_KERNEL_IMPL	arm/arm_celt_map.c	/^void (*const XCORR_KERNEL_IMPL[OPUS_ARCHMASK + 1])($/;"	v
+XCORR_KERNEL_IMPL	x86/x86_celt_map.c	/^void (*const XCORR_KERNEL_IMPL[OPUS_ARCHMASK + 1])($/;"	v
+_ISOC99_SOURCE	float_cast.h	74;"	d
+_ISOC99_SOURCE	float_cast.h	85;"	d
+_ISOC9X_SOURCE	float_cast.h	73;"	d
+_ISOC9X_SOURCE	float_cast.h	84;"	d
+__CELT_MIPSR1_H__	mips/celt_mipsr1.h	31;"	d
+__GNUC_PREREQ	arch.h	42;"	d
+__GNUC_PREREQ	arch.h	45;"	d
+__MDCT_MIPSR1_H__	mips/mdct_mipsr1.h	42;"	d
+__USE_ISOC99	float_cast.h	77;"	d
+__USE_ISOC99	float_cast.h	88;"	d
+__USE_ISOC9X	float_cast.h	76;"	d
+__USE_ISOC9X	float_cast.h	87;"	d
+__VQ_MIPSR1_H__	mips/vq_mipsr1.h	30;"	d
+__celt_check_analysis_ptr	celt.h	65;"	d
+__celt_check_mode_ptr_ptr	celt.h	63;"	d
+_celt_autocorr	celt_lpc.c	/^int _celt_autocorr($/;"	f
+_celt_cos_pi_2	mathops.c	/^static OPUS_INLINE opus_val16 _celt_cos_pi_2(opus_val16 x)$/;"	f	file:
+_celt_fatal	arch.h	/^static OPUS_INLINE void _celt_fatal(const char *str, const char *file, int line)$/;"	f
+_celt_lpc	celt_lpc.c	/^void _celt_lpc($/;"	f
+_decode_mem	celt_decoder.c	/^   celt_sig _decode_mem[1]; \/* Size = channels*(DECODE_BUFFER_SIZE+mode->overlap) *\/$/;"	m	struct:OpusCustomDecoder	file:
+_ecintrin_H	ecintrin.h	34;"	d
+_entcode_H	entcode.h	32;"	d
+_entdec_H	entdec.h	29;"	d
+_entenc_H	entenc.h	29;"	d
+_mfrngcode_H	mfrngcod.h	29;"	d
+_opus_false	stack_alloc.h	/^static OPUS_INLINE int _opus_false(void) {return 0;}$/;"	f
+activity	celt.h	/^   float activity;$/;"	m	struct:__anon1
+alg_quant	vq.c	/^unsigned alg_quant(celt_norm *X, int N, int K, int spread, int B, ec_enc *enc$/;"	f
+alg_unquant	vq.c	/^unsigned alg_unquant(celt_norm *X, int N, int K, int spread, int B,$/;"	f
+allocVectors	modes.h	/^   const unsigned char   *allocVectors;   \/**< Number of bits in each band for several rates *\/$/;"	m	struct:OpusCustomMode
+alloc_trim_analysis	celt_encoder.c	/^static int alloc_trim_analysis(const CELTMode *m, const celt_norm *X,$/;"	f	file:
+amp2Log2	quant_bands.c	/^void amp2Log2(const CELTMode *m, int effEnd, int end,$/;"	f
+analysis	celt_encoder.c	/^   AnalysisInfo analysis;$/;"	m	struct:OpusCustomEncoder	file:
+anti_collapse	bands.c	/^void anti_collapse(const CELTMode *m, celt_norm *X_, unsigned char *collapse_masks, int LM, int C, int size,$/;"	f
+arch	bands.c	/^   int arch;$/;"	m	struct:band_ctx	file:
+arch	celt_decoder.c	/^   int arch;$/;"	m	struct:OpusCustomDecoder	file:
+arch	celt_encoder.c	/^   int arch;$/;"	m	struct:OpusCustomEncoder	file:
+arch_fft	kiss_fft.h	/^    arch_fft_state *arch_fft;$/;"	m	struct:kiss_fft_state
+arch_fft_state	kiss_fft.h	/^typedef struct arch_fft_state{$/;"	s
+arch_fft_state	kiss_fft.h	/^} arch_fft_state;$/;"	t	typeref:struct:arch_fft_state
+bandE	bands.c	/^   const celt_ener *bandE;$/;"	m	struct:band_ctx	file:
+band_allocation	modes.c	/^static const unsigned char band_allocation[] = {$/;"	v	file:
+band_ctx	bands.c	/^struct band_ctx {$/;"	s	file:
+bandwidth	celt.h	/^   int        bandwidth;$/;"	m	struct:__anon1
+bark_freq	modes.c	/^static const opus_int16 bark_freq[BARK_BANDS+1] = {$/;"	v	file:
+beta_coef	quant_bands.c	/^static const opus_val16 beta_coef[4] = {30147, 22282, 12124, 6554};$/;"	v	file:
+beta_coef	quant_bands.c	/^static const opus_val16 beta_coef[4] = {30147\/32768., 22282\/32768., 12124\/32768., 6554\/32768.};$/;"	v	file:
+beta_intra	quant_bands.c	/^static const opus_val16 beta_intra = 4915;$/;"	v	file:
+beta_intra	quant_bands.c	/^static const opus_val16 beta_intra = 4915\/32768.;$/;"	v	file:
+bitexact_cos	bands.c	/^static opus_int16 bitexact_cos(opus_int16 x)$/;"	f	file:
+bitexact_log2tan	bands.c	/^static int bitexact_log2tan(int isin,int icos)$/;"	f	file:
+bitrate	celt_encoder.c	/^   opus_int32 bitrate;$/;"	m	struct:OpusCustomEncoder	file:
+bitrev	kiss_fft.h	/^    const opus_int16 *bitrev;$/;"	m	struct:kiss_fft_state
+bits	modes.h	/^   const unsigned char *bits;$/;"	m	struct:__anon2
+bits2pulses	rate.h	/^static OPUS_INLINE int bits2pulses(const CELTMode *m, int band, int LM, int bits)$/;"	f
+buf	entcode.h	/^   unsigned char *buf;$/;"	m	struct:ec_ctx
+cache	modes.h	/^   PulseCache cache;$/;"	m	struct:OpusCustomMode
+cache_bits50	static_modes_fixed.h	/^static const unsigned char cache_bits50[392] = {$/;"	v
+cache_bits50	static_modes_float.h	/^static const unsigned char cache_bits50[392] = {$/;"	v
+cache_caps50	static_modes_fixed.h	/^static const unsigned char cache_caps50[168] = {$/;"	v
+cache_caps50	static_modes_float.h	/^static const unsigned char cache_caps50[168] = {$/;"	v
+cache_index50	static_modes_fixed.h	/^static const opus_int16 cache_index50[105] = {$/;"	v
+cache_index50	static_modes_float.h	/^static const opus_int16 cache_index50[105] = {$/;"	v
+caps	modes.h	/^   const unsigned char *caps;$/;"	m	struct:__anon2
+celt_assert	arch.h	63;"	d
+celt_assert	arch.h	66;"	d
+celt_assert2	arch.h	64;"	d
+celt_assert2	arch.h	67;"	d
+celt_atan01	mathops.h	/^static OPUS_INLINE opus_val16 celt_atan01(opus_val16 x)$/;"	f
+celt_atan2p	mathops.h	/^static OPUS_INLINE opus_val16 celt_atan2p(opus_val16 y, opus_val16 x)$/;"	f
+celt_cos_norm	mathops.c	/^opus_val16 celt_cos_norm(opus_val32 x)$/;"	f
+celt_cos_norm	mathops.h	87;"	d
+celt_decode_lost	celt_decoder.c	/^static void celt_decode_lost(CELTDecoder * OPUS_RESTRICT st, int N, int LM)$/;"	f	file:
+celt_decode_with_ec	celt_decoder.c	/^int celt_decode_with_ec(CELTDecoder * OPUS_RESTRICT st, const unsigned char *data,$/;"	f
+celt_decoder_ctl	celt.h	141;"	d
+celt_decoder_get_size	celt_decoder.c	/^int celt_decoder_get_size(int channels)$/;"	f
+celt_decoder_init	celt_decoder.c	/^int celt_decoder_init(CELTDecoder *st, opus_int32 sampling_rate, int channels)$/;"	f
+celt_div	mathops.h	217;"	d
+celt_div	mathops.h	89;"	d
+celt_encode_with_ec	celt_encoder.c	/^int celt_encode_with_ec(CELTEncoder * OPUS_RESTRICT st, const opus_val16 * pcm, int frame_size, unsigned char *compressed, int nbCompressedBytes, ec_enc *enc)$/;"	f
+celt_encoder_ctl	celt.h	140;"	d
+celt_encoder_get_size	celt_encoder.c	/^int celt_encoder_get_size(int channels)$/;"	f
+celt_encoder_init	celt_encoder.c	/^int celt_encoder_init(CELTEncoder *st, opus_int32 sampling_rate, int channels,$/;"	f
+celt_ener	arch.h	/^typedef float celt_ener;$/;"	t
+celt_ener	arch.h	/^typedef opus_val32 celt_ener;$/;"	t
+celt_exp2	mathops.h	/^static OPUS_INLINE float celt_exp2(float x)$/;"	f
+celt_exp2	mathops.h	/^static OPUS_INLINE opus_val32 celt_exp2(opus_val16 x)$/;"	f
+celt_exp2	mathops.h	137;"	d
+celt_exp2_frac	mathops.h	/^static OPUS_INLINE opus_val32 celt_exp2_frac(opus_val16 x)$/;"	f
+celt_fatal	arch.h	51;"	d
+celt_fir	celt_lpc.h	52;"	d
+celt_fir	x86/celt_lpc_sse.h	48;"	d
+celt_fir	x86/celt_lpc_sse.h	62;"	d
+celt_fir5	pitch.c	/^static void celt_fir5(const opus_val16 *x,$/;"	f	file:
+celt_fir_c	celt_lpc.c	/^void celt_fir_c($/;"	f
+celt_fir_sse4_1	x86/celt_lpc_sse.c	/^void celt_fir_sse4_1(const opus_val16 *_x,$/;"	f
+celt_iir	celt_lpc.c	/^void celt_iir(const opus_val32 *_x,$/;"	f
+celt_ilog2	mathops.h	/^static OPUS_INLINE opus_int16 celt_ilog2(opus_int32 x)$/;"	f
+celt_inner_prod	pitch.h	171;"	d
+celt_inner_prod	x86/pitch_sse.h	104;"	d
+celt_inner_prod	x86/pitch_sse.h	109;"	d
+celt_inner_prod	x86/pitch_sse.h	114;"	d
+celt_inner_prod	x86/pitch_sse.h	127;"	d
+celt_inner_prod_c	pitch.h	/^static OPUS_INLINE opus_val32 celt_inner_prod_c(const opus_val16 *x,$/;"	f
+celt_inner_prod_sse	x86/pitch_sse.c	/^opus_val32 celt_inner_prod_sse(const opus_val16 *x, const opus_val16 *y,$/;"	f
+celt_inner_prod_sse2	x86/pitch_sse2.c	/^opus_val32 celt_inner_prod_sse2(const opus_val16 *x, const opus_val16 *y,$/;"	f
+celt_inner_prod_sse4_1	x86/pitch_sse4_1.c	/^opus_val32 celt_inner_prod_sse4_1(const opus_val16 *x, const opus_val16 *y,$/;"	f
+celt_isnan	arch.h	/^static OPUS_INLINE int celt_isnan(float x)$/;"	f
+celt_isnan	arch.h	168;"	d
+celt_lcg_rand	bands.c	/^opus_uint32 celt_lcg_rand(opus_uint32 seed)$/;"	f
+celt_log2	mathops.h	/^static OPUS_INLINE float celt_log2(float x)$/;"	f
+celt_log2	mathops.h	/^static OPUS_INLINE opus_val16 celt_log2(opus_val32 x)$/;"	f
+celt_log2	mathops.h	136;"	d
+celt_maxabs16	mathops.h	/^static OPUS_INLINE opus_val32 celt_maxabs16(const opus_val16 *x, int len)$/;"	f
+celt_maxabs32	mathops.h	/^static OPUS_INLINE opus_val32 celt_maxabs32(const opus_val32 *x, int len)$/;"	f
+celt_maxabs32	mathops.h	76;"	d
+celt_mips	fixed_debug.h	/^OPUS_EXPORT opus_int64 celt_mips=0;$/;"	v
+celt_norm	arch.h	/^typedef float celt_norm;$/;"	t
+celt_norm	arch.h	/^typedef opus_val16 celt_norm;$/;"	t
+celt_pitch_xcorr	arm/pitch_arm.h	112;"	d
+celt_pitch_xcorr	arm/pitch_arm.h	119;"	d
+celt_pitch_xcorr	arm/pitch_arm.h	57;"	d
+celt_pitch_xcorr	arm/pitch_arm.h	65;"	d
+celt_pitch_xcorr_c	pitch.c	/^celt_pitch_xcorr_c(const opus_val16 *_x, const opus_val16 *_y,$/;"	f
+celt_pitch_xcorr_edsp	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp PROC$/;"	l
+celt_pitch_xcorr_edsp_done	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp_done$/;"	l
+celt_pitch_xcorr_edsp_process1a	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp_process1a$/;"	l
+celt_pitch_xcorr_edsp_process1a_loop4	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp_process1a_loop4$/;"	l
+celt_pitch_xcorr_edsp_process1a_loop_done	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp_process1a_loop_done$/;"	l
+celt_pitch_xcorr_edsp_process1u_done	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp_process1u_done$/;"	l
+celt_pitch_xcorr_edsp_process1u_loop1	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp_process1u_loop1$/;"	l
+celt_pitch_xcorr_edsp_process1u_loop4	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp_process1u_loop4$/;"	l
+celt_pitch_xcorr_edsp_process1u_loop4_done	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp_process1u_loop4_done$/;"	l
+celt_pitch_xcorr_edsp_process2	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp_process2$/;"	l
+celt_pitch_xcorr_edsp_process2_1	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp_process2_1$/;"	l
+celt_pitch_xcorr_edsp_process2_done	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp_process2_done$/;"	l
+celt_pitch_xcorr_edsp_process2_loop4	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp_process2_loop4$/;"	l
+celt_pitch_xcorr_edsp_process2_loop_done	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp_process2_loop_done$/;"	l
+celt_pitch_xcorr_edsp_process4	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_edsp_process4$/;"	l
+celt_pitch_xcorr_float_neon	arm/celt_neon_intr.c	/^void celt_pitch_xcorr_float_neon(const opus_val16 *_x, const opus_val16 *_y,$/;"	f
+celt_pitch_xcorr_media	arm/pitch_arm.h	41;"	d
+celt_pitch_xcorr_neon	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_neon PROC$/;"	l
+celt_pitch_xcorr_neon_done	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_neon_done$/;"	l
+celt_pitch_xcorr_neon_process4	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_neon_process4$/;"	l
+celt_pitch_xcorr_neon_process4_done	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_neon_process4_done$/;"	l
+celt_pitch_xcorr_neon_process_remaining	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_neon_process_remaining$/;"	l
+celt_pitch_xcorr_neon_process_remaining4	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_neon_process_remaining4$/;"	l
+celt_pitch_xcorr_neon_process_remaining4_done	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_neon_process_remaining4_done$/;"	l
+celt_pitch_xcorr_neon_process_remaining_loop1	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_neon_process_remaining_loop1$/;"	l
+celt_pitch_xcorr_neon_process_remaining_loop8	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_neon_process_remaining_loop8$/;"	l
+celt_pitch_xcorr_neon_process_remaining_loop_done	arm/celt_pitch_xcorr_arm.s	/^celt_pitch_xcorr_neon_process_remaining_loop_done$/;"	l
+celt_plc_pitch_search	celt_decoder.c	/^static int celt_plc_pitch_search(celt_sig *decode_mem[2], int C, int arch)$/;"	f	file:
+celt_preemphasis	celt_encoder.c	/^void celt_preemphasis(const opus_val16 * OPUS_RESTRICT pcmp, celt_sig * OPUS_RESTRICT inp,$/;"	f
+celt_rcp	mathops.c	/^opus_val32 celt_rcp(opus_val32 x)$/;"	f
+celt_rcp	mathops.h	88;"	d
+celt_rsqrt	mathops.h	85;"	d
+celt_rsqrt_norm	mathops.c	/^opus_val16 celt_rsqrt_norm(opus_val32 x)$/;"	f
+celt_rsqrt_norm	mathops.h	86;"	d
+celt_sig	arch.h	/^typedef float celt_sig;$/;"	t
+celt_sig	arch.h	/^typedef opus_val32 celt_sig;$/;"	t
+celt_sqrt	mathops.c	/^opus_val32 celt_sqrt(opus_val32 x)$/;"	f
+celt_sqrt	mathops.h	84;"	d
+celt_sudiv	entcode.h	/^static OPUS_INLINE opus_int32 celt_sudiv(opus_int32 n, opus_int32 d) {$/;"	f
+celt_synthesis	celt_decoder.c	/^void celt_synthesis(const CELTMode *mode, celt_norm *X, celt_sig * out_syn[],$/;"	f	file:
+celt_udiv	entcode.h	/^static OPUS_INLINE opus_uint32 celt_udiv(opus_uint32 n, opus_uint32 d) {$/;"	f
+celt_zlog2	mathops.h	/^static OPUS_INLINE opus_int16 celt_zlog2(opus_val32 x)$/;"	f
+cfg_arch_120	static_modes_fixed_arm_ne10.h	/^static const arch_fft_state cfg_arch_120 = {$/;"	v
+cfg_arch_120	static_modes_float_arm_ne10.h	/^static const arch_fft_state cfg_arch_120 = {$/;"	v
+cfg_arch_240	static_modes_fixed_arm_ne10.h	/^static const arch_fft_state cfg_arch_240 = {$/;"	v
+cfg_arch_240	static_modes_float_arm_ne10.h	/^static const arch_fft_state cfg_arch_240 = {$/;"	v
+cfg_arch_480	static_modes_fixed_arm_ne10.h	/^static const arch_fft_state cfg_arch_480 = {$/;"	v
+cfg_arch_480	static_modes_float_arm_ne10.h	/^static const arch_fft_state cfg_arch_480 = {$/;"	v
+cfg_arch_60	static_modes_fixed_arm_ne10.h	/^static const arch_fft_state cfg_arch_60 = {$/;"	v
+cfg_arch_60	static_modes_float_arm_ne10.h	/^static const arch_fft_state cfg_arch_60 = {$/;"	v
+channels	celt_decoder.c	/^   int channels;$/;"	m	struct:OpusCustomDecoder	file:
+channels	celt_encoder.c	/^   int channels;$/;"	m	struct:OpusCustomEncoder	file:
+check	tests/test_unit_dft.c	/^void check(kiss_fft_cpx  * in,kiss_fft_cpx  * out,int nfft,int isinverse)$/;"	f
+check	tests/test_unit_mdct.c	/^void check(kiss_fft_scalar  * in,kiss_fft_scalar  * out,int nfft,int isinverse)$/;"	f
+check_inv	tests/test_unit_mdct.c	/^void check_inv(kiss_fft_scalar  * in,kiss_fft_scalar  * out,int nfft,int isinverse)$/;"	f
+clip	celt_encoder.c	/^   int clip;$/;"	m	struct:OpusCustomEncoder	file:
+clt_mdct_backward	arm/mdct_arm.h	55;"	d
+clt_mdct_backward	mdct.h	106;"	d
+clt_mdct_backward	mdct.h	96;"	d
+clt_mdct_backward	mips/mdct_mipsr1.h	/^void clt_mdct_backward(const mdct_lookup *l, kiss_fft_scalar *in, kiss_fft_scalar * OPUS_RESTRICT out,$/;"	f
+clt_mdct_backward_c	mdct.c	/^void clt_mdct_backward_c(const mdct_lookup *l, kiss_fft_scalar *in, kiss_fft_scalar * OPUS_RESTRICT out,$/;"	f
+clt_mdct_backward_neon	arm/celt_ne10_mdct.c	/^void clt_mdct_backward_neon(const mdct_lookup *l,$/;"	f
+clt_mdct_clear	mdct.c	/^void clt_mdct_clear(mdct_lookup *l, int arch)$/;"	f
+clt_mdct_forward	arm/mdct_arm.h	53;"	d
+clt_mdct_forward	mdct.h	103;"	d
+clt_mdct_forward	mdct.h	86;"	d
+clt_mdct_forward	mips/mdct_mipsr1.h	/^void clt_mdct_forward(const mdct_lookup *l, kiss_fft_scalar *in, kiss_fft_scalar * OPUS_RESTRICT out,$/;"	f
+clt_mdct_forward_c	mdct.c	/^void clt_mdct_forward_c(const mdct_lookup *l, kiss_fft_scalar *in, kiss_fft_scalar * OPUS_RESTRICT out,$/;"	f
+clt_mdct_forward_neon	arm/celt_ne10_mdct.c	/^void clt_mdct_forward_neon(const mdct_lookup *l,$/;"	f
+clt_mdct_init	mdct.c	/^int clt_mdct_init(mdct_lookup *l,int N, int maxshift, int arch)$/;"	f
+comb_filter	celt.c	/^void comb_filter(opus_val32 *y, opus_val32 *x, int T0, int T1, int N,$/;"	f
+comb_filter	mips/celt_mipsr1.h	/^void comb_filter(opus_val32 *y, opus_val32 *x, int T0, int T1, int N,$/;"	f
+comb_filter_const	celt.h	212;"	d
+comb_filter_const	x86/pitch_sse.h	138;"	d
+comb_filter_const	x86/pitch_sse.h	160;"	d
+comb_filter_const	x86/pitch_sse.h	184;"	d
+comb_filter_const_c	celt.c	/^void comb_filter_const_c(opus_val32 *y, opus_val32 *x, int T, int N,$/;"	f	file:
+comb_filter_const_sse	x86/pitch_sse.c	/^void comb_filter_const_sse(opus_val32 *y, opus_val32 *x, int T, int N,$/;"	f
+complexity	celt_encoder.c	/^   int complexity;$/;"	m	struct:OpusCustomEncoder	file:
+compute_allocation	rate.c	/^int compute_allocation(const CELTMode *m, int start, int end, const int *offsets, const int *cap, int alloc_trim, int *intensity, int *dual_stereo,$/;"	f
+compute_allocation_table	modes.c	/^static void compute_allocation_table(CELTMode *mode)$/;"	f	file:
+compute_band_energies	bands.c	/^void compute_band_energies(const CELTMode *m, const celt_sig *X, celt_ener *bandE, int end, int C, int LM)$/;"	f
+compute_bitrev_table	kiss_fft.c	/^void compute_bitrev_table($/;"	f	file:
+compute_ebands	modes.c	/^static opus_int16 *compute_ebands(opus_int32 Fs, int frame_size, int res, int *nbEBands)$/;"	f	file:
+compute_mdcts	celt_encoder.c	/^static void compute_mdcts(const CELTMode *mode, int shortBlocks, celt_sig * OPUS_RESTRICT in,$/;"	f	file:
+compute_pitch_gain	pitch.c	/^static opus_val16 compute_pitch_gain(opus_val32 xy, opus_val32 xx, opus_val32 yy)$/;"	f	file:
+compute_pulse_cache	rate.c	/^void compute_pulse_cache(CELTMode *m, int LM)$/;"	f
+compute_qn	bands.c	/^static int compute_qn(int N, int b, int offset, int pulse_cap, int stereo)$/;"	f	file:
+compute_theta	bands.c	/^static void compute_theta(struct band_ctx *ctx, struct split_ctx *sctx,$/;"	f	file:
+compute_twiddles	kiss_fft.c	/^static void compute_twiddles(kiss_twiddle_cpx *twiddles, int nfft)$/;"	f	file:
+compute_vbr	celt_encoder.c	/^static int compute_vbr(const CELTMode *mode, AnalysisInfo *analysis, opus_int32 base_target,$/;"	f	file:
+consec_transient	celt_encoder.c	/^   int consec_transient;$/;"	m	struct:OpusCustomEncoder	file:
+constrained_vbr	celt_encoder.c	/^   int constrained_vbr;      \/* If zero, VBR can do whatever it likes with the rate *\/$/;"	m	struct:OpusCustomEncoder	file:
+cpuid	x86/x86cpu.c	/^static _inline void cpuid(unsigned int CPUInfo[4], unsigned int InfoType)$/;"	f	file:
+cpuid	x86/x86cpu.c	/^static void cpuid(unsigned int CPUInfo[4], unsigned int InfoType)$/;"	f	file:
+cwrsi	cwrs.c	/^static opus_val32 cwrsi(int _n,int _k,opus_uint32 _i,int *_y){$/;"	f	file:
+cwrsi	cwrs.c	/^static opus_val32 cwrsi(int _n,int _k,opus_uint32 _i,int *_y,opus_uint32 *_u){$/;"	f	file:
+decode_pulses	cwrs.c	/^opus_val32 decode_pulses(int *_y,int _n,int _k,ec_dec *_dec){$/;"	f
+deemphasis	celt_decoder.c	/^void deemphasis(celt_sig *in[], opus_val16 *pcm, int N, int C, int downsample, const opus_val16 *coef,$/;"	f	file:
+deinterleave_hadamard	bands.c	/^static void deinterleave_hadamard(celt_norm *X, int N0, int stride, int hadamard)$/;"	f	file:
+delayedIntra	celt_encoder.c	/^   opus_val32 delayedIntra;$/;"	m	struct:OpusCustomEncoder	file:
+delta	bands.c	/^   int delta;$/;"	m	struct:split_ctx	file:
+denormalise_bands	bands.c	/^void denormalise_bands(const CELTMode *m, const celt_norm * OPUS_RESTRICT X,$/;"	f
+disable_pf	celt_encoder.c	/^   int disable_pf;$/;"	m	struct:OpusCustomEncoder	file:
+downsample	celt_decoder.c	/^   int downsample;$/;"	m	struct:OpusCustomDecoder	file:
+dual_inner_prod	mips/pitch_mipsr1.h	/^static inline void dual_inner_prod(const opus_val16 *x, const opus_val16 *y01, const opus_val16 *y02,$/;"	f
+dual_inner_prod	pitch.h	154;"	d
+dual_inner_prod	x86/pitch_sse.h	137;"	d
+dual_inner_prod	x86/pitch_sse.h	157;"	d
+dual_inner_prod	x86/pitch_sse.h	172;"	d
+dual_inner_prod_c	pitch.h	/^static OPUS_INLINE void dual_inner_prod_c(const opus_val16 *x, const opus_val16 *y01, const opus_val16 *y02,$/;"	f
+dual_inner_prod_sse	x86/pitch_sse.c	/^void dual_inner_prod_sse(const opus_val16 *x, const opus_val16 *y01, const opus_val16 *y02,$/;"	f
+dynalloc_analysis	celt_encoder.c	/^static opus_val16 dynalloc_analysis(const opus_val16 *bandLogE, const opus_val16 *bandLogE2,$/;"	f	file:
+eBands	modes.h	/^   const opus_int16   *eBands;   \/**< Definition for each "pseudo-critical band" *\/$/;"	m	struct:OpusCustomMode
+eMeans	quant_bands.c	/^const opus_val16 eMeans[25] = {$/;"	v
+eMeans	quant_bands.c	/^const signed char eMeans[25] = {$/;"	v
+e_prob_model	quant_bands.c	/^static const unsigned char e_prob_model[4][2][42] = {$/;"	v	file:
+eband5ms	modes.c	/^static const opus_int16 eband5ms[] = {$/;"	v	file:
+ec	bands.c	/^   ec_ctx *ec;$/;"	m	struct:band_ctx	file:
+ec_bsr	ecintrin.h	/^static __inline int ec_bsr(unsigned long _x){$/;"	f
+ec_ctx	entcode.h	/^struct ec_ctx{$/;"	s
+ec_ctx	entcode.h	/^typedef struct ec_ctx         ec_ctx;$/;"	t	typeref:struct:ec_ctx
+ec_dec	entcode.h	/^typedef struct ec_ctx         ec_dec;$/;"	t	typeref:struct:ec_ctx
+ec_dec_bit_logp	entdec.c	/^int ec_dec_bit_logp(ec_dec *_this,unsigned _logp){$/;"	f
+ec_dec_bits	entdec.c	/^opus_uint32 ec_dec_bits(ec_dec *_this,unsigned _bits){$/;"	f
+ec_dec_icdf	entdec.c	/^int ec_dec_icdf(ec_dec *_this,const unsigned char *_icdf,unsigned _ftb){$/;"	f
+ec_dec_init	entdec.c	/^void ec_dec_init(ec_dec *_this,unsigned char *_buf,opus_uint32 _storage){$/;"	f
+ec_dec_normalize	entdec.c	/^static void ec_dec_normalize(ec_dec *_this){$/;"	f	file:
+ec_dec_uint	entdec.c	/^opus_uint32 ec_dec_uint(ec_dec *_this,opus_uint32 _ft){$/;"	f
+ec_dec_update	entdec.c	/^void ec_dec_update(ec_dec *_this,unsigned _fl,unsigned _fh,unsigned _ft){$/;"	f
+ec_decode	entdec.c	/^unsigned ec_decode(ec_dec *_this,unsigned _ft){$/;"	f
+ec_decode_bin	entdec.c	/^unsigned ec_decode_bin(ec_dec *_this,unsigned _bits){$/;"	f
+ec_enc	entcode.h	/^typedef struct ec_ctx         ec_enc;$/;"	t	typeref:struct:ec_ctx
+ec_enc_bit_logp	entenc.c	/^void ec_enc_bit_logp(ec_enc *_this,int _val,unsigned _logp){$/;"	f
+ec_enc_bits	entenc.c	/^void ec_enc_bits(ec_enc *_this,opus_uint32 _fl,unsigned _bits){$/;"	f
+ec_enc_carry_out	entenc.c	/^static void ec_enc_carry_out(ec_enc *_this,int _c){$/;"	f	file:
+ec_enc_done	entenc.c	/^void ec_enc_done(ec_enc *_this){$/;"	f
+ec_enc_icdf	entenc.c	/^void ec_enc_icdf(ec_enc *_this,int _s,const unsigned char *_icdf,unsigned _ftb){$/;"	f
+ec_enc_init	entenc.c	/^void ec_enc_init(ec_enc *_this,unsigned char *_buf,opus_uint32 _size){$/;"	f
+ec_enc_normalize	entenc.c	/^static OPUS_INLINE void ec_enc_normalize(ec_enc *_this){$/;"	f	file:
+ec_enc_patch_initial_bits	entenc.c	/^void ec_enc_patch_initial_bits(ec_enc *_this,unsigned _val,unsigned _nbits){$/;"	f
+ec_enc_shrink	entenc.c	/^void ec_enc_shrink(ec_enc *_this,opus_uint32 _size){$/;"	f
+ec_enc_uint	entenc.c	/^void ec_enc_uint(ec_enc *_this,opus_uint32 _fl,opus_uint32 _ft){$/;"	f
+ec_encode	entenc.c	/^void ec_encode(ec_enc *_this,unsigned _fl,unsigned _fh,unsigned _ft){$/;"	f
+ec_encode_bin	entenc.c	/^void ec_encode_bin(ec_enc *_this,unsigned _fl,unsigned _fh,unsigned _bits){$/;"	f
+ec_get_buffer	entcode.h	/^static OPUS_INLINE unsigned char *ec_get_buffer(ec_ctx *_this){$/;"	f
+ec_get_error	entcode.h	/^static OPUS_INLINE int ec_get_error(ec_ctx *_this){$/;"	f
+ec_ilog	entcode.c	/^int ec_ilog(opus_uint32 _v){$/;"	f
+ec_laplace_decode	laplace.c	/^int ec_laplace_decode(ec_dec *dec, unsigned fs, int decay)$/;"	f
+ec_laplace_encode	laplace.c	/^void ec_laplace_encode(ec_enc *enc, int *value, unsigned fs, int decay)$/;"	f
+ec_laplace_get_freq1	laplace.c	/^static unsigned ec_laplace_get_freq1(unsigned fs0, int decay)$/;"	f	file:
+ec_laplace_get_start_freq	tests/test_unit_laplace.c	/^int ec_laplace_get_start_freq(int decay)$/;"	f
+ec_range_bytes	entcode.h	/^static OPUS_INLINE opus_uint32 ec_range_bytes(ec_ctx *_this){$/;"	f
+ec_read_byte	entdec.c	/^static int ec_read_byte(ec_dec *_this){$/;"	f	file:
+ec_read_byte_from_end	entdec.c	/^static int ec_read_byte_from_end(ec_dec *_this){$/;"	f	file:
+ec_tell	entcode.h	/^static OPUS_INLINE int ec_tell(ec_ctx *_this){$/;"	f
+ec_tell_frac	entcode.c	/^opus_uint32 ec_tell_frac(ec_ctx *_this){$/;"	f
+ec_window	entcode.h	/^typedef opus_uint32           ec_window;$/;"	t
+ec_write_byte	entenc.c	/^static int ec_write_byte(ec_enc *_this,unsigned _value){$/;"	f	file:
+ec_write_byte_at_end	entenc.c	/^static int ec_write_byte_at_end(ec_enc *_this,unsigned _value){$/;"	f	file:
+effEBands	modes.h	/^   int          effEBands;$/;"	m	struct:OpusCustomMode
+encode	bands.c	/^   int encode;$/;"	m	struct:band_ctx	file:
+encode_pulses	cwrs.c	/^void encode_pulses(const int *_y,int _n,int _k,ec_enc *_enc){$/;"	f
+end	celt_decoder.c	/^   int start, end;$/;"	m	struct:OpusCustomDecoder	file:
+end	celt_encoder.c	/^   int start, end;$/;"	m	struct:OpusCustomEncoder	file:
+end_offs	entcode.h	/^   opus_uint32    end_offs;$/;"	m	struct:ec_ctx
+end_window	entcode.h	/^   ec_window      end_window;$/;"	m	struct:ec_ctx
+energy_mask	celt_encoder.c	/^   opus_val16 *energy_mask;$/;"	m	struct:OpusCustomEncoder	file:
+error	celt_decoder.c	/^   int error;$/;"	m	struct:OpusCustomDecoder	file:
+error	entcode.h	/^   int            error;$/;"	m	struct:ec_ctx
+exp_rotation	vq.c	/^static void exp_rotation(celt_norm *X, int len, int dir, int stride, int K, int spread)$/;"	f	file:
+exp_rotation1	mips/vq_mipsr1.h	/^static void exp_rotation1(celt_norm *X, int len, int stride, opus_val16 c, opus_val16 s)$/;"	f
+exp_rotation1	vq.c	/^static void exp_rotation1(celt_norm *X, int len, int stride, opus_val16 c, opus_val16 s)$/;"	f	file:
+ext	entcode.h	/^   opus_uint32    ext;$/;"	m	struct:ec_ctx
+extract_collapse_mask	vq.c	/^static unsigned extract_collapse_mask(int *iy, int N, int B)$/;"	f	file:
+factors	kiss_fft.h	/^    opus_int16 factors[2*MAXFACTORS];$/;"	m	struct:kiss_fft_state
+fft_bitrev120	static_modes_fixed.h	/^static const opus_int16 fft_bitrev120[120] = {$/;"	v
+fft_bitrev120	static_modes_float.h	/^static const opus_int16 fft_bitrev120[120] = {$/;"	v
+fft_bitrev240	static_modes_fixed.h	/^static const opus_int16 fft_bitrev240[240] = {$/;"	v
+fft_bitrev240	static_modes_float.h	/^static const opus_int16 fft_bitrev240[240] = {$/;"	v
+fft_bitrev480	static_modes_fixed.h	/^static const opus_int16 fft_bitrev480[480] = {$/;"	v
+fft_bitrev480	static_modes_float.h	/^static const opus_int16 fft_bitrev480[480] = {$/;"	v
+fft_bitrev60	static_modes_fixed.h	/^static const opus_int16 fft_bitrev60[60] = {$/;"	v
+fft_bitrev60	static_modes_float.h	/^static const opus_int16 fft_bitrev60[60] = {$/;"	v
+fft_state48000_960_0	static_modes_fixed.h	/^static const kiss_fft_state fft_state48000_960_0 = {$/;"	v
+fft_state48000_960_0	static_modes_float.h	/^static const kiss_fft_state fft_state48000_960_0 = {$/;"	v
+fft_state48000_960_1	static_modes_fixed.h	/^static const kiss_fft_state fft_state48000_960_1 = {$/;"	v
+fft_state48000_960_1	static_modes_float.h	/^static const kiss_fft_state fft_state48000_960_1 = {$/;"	v
+fft_state48000_960_2	static_modes_fixed.h	/^static const kiss_fft_state fft_state48000_960_2 = {$/;"	v
+fft_state48000_960_2	static_modes_float.h	/^static const kiss_fft_state fft_state48000_960_2 = {$/;"	v
+fft_state48000_960_3	static_modes_fixed.h	/^static const kiss_fft_state fft_state48000_960_3 = {$/;"	v
+fft_state48000_960_3	static_modes_float.h	/^static const kiss_fft_state fft_state48000_960_3 = {$/;"	v
+fft_twiddles48000_960	static_modes_fixed.h	/^static const kiss_twiddle_cpx fft_twiddles48000_960[480] = {$/;"	v
+fft_twiddles48000_960	static_modes_float.h	/^static const kiss_twiddle_cpx fft_twiddles48000_960[480] = {$/;"	v
+find_best_pitch	pitch.c	/^static void find_best_pitch(opus_val32 *xcorr, opus_val16 *y, int len,$/;"	f	file:
+fits_in32	rate.c	/^static int fits_in32(int _n, int _k)$/;"	f	file:
+float2int	float_cast.h	/^        __inline long int float2int(float value)$/;"	f
+float2int	float_cast.h	/^        float2int (float flt)$/;"	f
+float2int	float_cast.h	127;"	d
+float2int	float_cast.h	80;"	d
+float2int	float_cast.h	91;"	d
+force_intra	celt_encoder.c	/^   int force_intra;$/;"	m	struct:OpusCustomEncoder	file:
+frac_div32	mathops.c	/^opus_val32 frac_div32(opus_val32 a, opus_val32 b)$/;"	f
+frac_div32	mathops.h	90;"	d
+fromOpus	celt.h	/^static OPUS_INLINE int fromOpus(unsigned char c)$/;"	f
+fromOpusTable	celt.h	/^static const unsigned char fromOpusTable[16] = {$/;"	v
+get_pulses	rate.h	/^static OPUS_INLINE int get_pulses(int i)$/;"	f
+get_required_bits	cwrs.c	/^void get_required_bits(opus_int16 *_bits,int _n,int _maxk,int _frac){$/;"	f
+global_stack	stack_alloc.h	/^char *global_stack=0;$/;"	v
+global_stack_top	stack_alloc.h	/^char *global_stack_top=0;$/;"	v
+haar1	bands.c	/^void haar1(celt_norm *X, int N0, int stride)$/;"	f
+hf_average	celt_encoder.c	/^   int hf_average;$/;"	m	struct:OpusCustomEncoder	file:
+hysteresis_decision	bands.c	/^int hysteresis_decision(opus_val16 val, const opus_val16 *thresholds, const opus_val16 *hysteresis, int N, int prev)$/;"	f
+i	bands.c	/^   int i;$/;"	m	struct:band_ctx	file:
+i	kiss_fft.h	/^    kiss_fft_scalar i;$/;"	m	struct:__anon4
+i	kiss_fft.h	/^   kiss_twiddle_scalar i;$/;"	m	struct:__anon5
+icwrs	cwrs.c	/^static OPUS_INLINE opus_uint32 icwrs(int _n,int _k,opus_uint32 *_nc,const int *_y,$/;"	f	file:
+icwrs	cwrs.c	/^static opus_uint32 icwrs(int _n,const int *_y){$/;"	f	file:
+icwrs1	cwrs.c	/^static OPUS_INLINE opus_uint32 icwrs1(const int *_y,int *_k){$/;"	f	file:
+imid	bands.c	/^   int imid;$/;"	m	struct:split_ctx	file:
+in_mem	celt_encoder.c	/^   celt_sig in_mem[1]; \/* Size = channels*mode->overlap *\/$/;"	m	struct:OpusCustomEncoder	file:
+index	modes.h	/^   const opus_int16 *index;$/;"	m	struct:__anon2
+init_caps	celt.c	/^void init_caps(const CELTMode *m,int *cap,int LM,int C)$/;"	f
+intensity	bands.c	/^   int intensity;$/;"	m	struct:band_ctx	file:
+intensity	celt_encoder.c	/^   int intensity;$/;"	m	struct:OpusCustomEncoder	file:
+intensity_stereo	bands.c	/^static void intensity_stereo(const CELTMode *m, celt_norm * OPUS_RESTRICT X, const celt_norm * OPUS_RESTRICT Y, const celt_ener *bandE, int bandID, int N)$/;"	f	file:
+interleave_hadamard	bands.c	/^static void interleave_hadamard(celt_norm *X, int N0, int stride, int hadamard)$/;"	f	file:
+interp_bits2pulses	rate.c	/^static OPUS_INLINE int interp_bits2pulses(const CELTMode *m, int start, int end, int skip_start,$/;"	f	file:
+inv	bands.c	/^   int inv;$/;"	m	struct:split_ctx	file:
+is_supported	kiss_fft.h	/^   int is_supported;$/;"	m	struct:arch_fft_state
+iside	bands.c	/^   int iside;$/;"	m	struct:split_ctx	file:
+isqrt32	mathops.c	/^unsigned isqrt32(opus_uint32 _val){$/;"	f
+itheta	bands.c	/^   int itheta;$/;"	m	struct:split_ctx	file:
+kf_bfly2	kiss_fft.c	/^static void kf_bfly2($/;"	f	file:
+kf_bfly3	kiss_fft.c	/^static void kf_bfly3($/;"	f	file:
+kf_bfly4	kiss_fft.c	/^static void kf_bfly4($/;"	f	file:
+kf_bfly5	kiss_fft.c	/^static void kf_bfly5($/;"	f	file:
+kf_bfly5	mips/kiss_fft_mipsr1.h	/^static void kf_bfly5($/;"	f
+kf_cexp	_kiss_fft_guts.h	170;"	d
+kf_cexp2	_kiss_fft_guts.h	176;"	d
+kf_factor	kiss_fft.c	/^int kf_factor(int n,opus_int16 * facbuf)$/;"	f	file:
+kfft	mdct.h	/^   const kiss_fft_state *kfft[4];$/;"	m	struct:__anon3
+kiss_fft_cpx	kiss_fft.h	/^}kiss_fft_cpx;$/;"	t	typeref:struct:__anon4
+kiss_fft_scalar	kiss_fft.h	43;"	d
+kiss_fft_scalar	kiss_fft.h	52;"	d
+kiss_fft_scalar	kiss_fft.h	59;"	d
+kiss_fft_state	kiss_fft.h	/^typedef struct kiss_fft_state{$/;"	s
+kiss_fft_state	kiss_fft.h	/^} kiss_fft_state;$/;"	t	typeref:struct:kiss_fft_state
+kiss_twiddle_cpx	kiss_fft.h	/^}kiss_twiddle_cpx;$/;"	t	typeref:struct:__anon5
+kiss_twiddle_scalar	kiss_fft.h	53;"	d
+kiss_twiddle_scalar	kiss_fft.h	60;"	d
+l1_metric	celt_encoder.c	/^static opus_val32 l1_metric(const celt_norm *tmp, int N, int LM, opus_val16 bias)$/;"	f	file:
+lastCodedBands	celt_encoder.c	/^   int lastCodedBands;$/;"	m	struct:OpusCustomEncoder	file:
+last_pitch_index	celt_decoder.c	/^   int last_pitch_index;$/;"	m	struct:OpusCustomDecoder	file:
+lfe	celt_encoder.c	/^   int lfe;$/;"	m	struct:OpusCustomEncoder	file:
+log2_frac	cwrs.c	/^int log2_frac(opus_uint32 val, int frac)$/;"	f
+logN	modes.h	/^   const opus_int16 *logN;$/;"	m	struct:OpusCustomMode
+logN400	static_modes_fixed.h	/^static const opus_int16 logN400[21] = {$/;"	v
+logN400	static_modes_float.h	/^static const opus_int16 logN400[21] = {$/;"	v
+loss_count	celt_decoder.c	/^   int loss_count;$/;"	m	struct:OpusCustomDecoder	file:
+loss_distortion	quant_bands.c	/^static opus_val32 loss_distortion(const opus_val16 *eBands, opus_val16 *oldEBands, int start, int end, int len, int C)$/;"	f	file:
+loss_rate	celt_encoder.c	/^   int loss_rate;$/;"	m	struct:OpusCustomEncoder	file:
+lsb_depth	celt_encoder.c	/^   int lsb_depth;$/;"	m	struct:OpusCustomEncoder	file:
+m	bands.c	/^   const CELTMode *m;$/;"	m	struct:band_ctx	file:
+main	opus_custom_demo.c	/^int main(int argc, char *argv[])$/;"	f
+main	tests/test_unit_cwrs32.c	/^int main(void){$/;"	f
+main	tests/test_unit_dft.c	/^int main(int argc,char ** argv)$/;"	f
+main	tests/test_unit_entropy.c	/^int main(int _argc,char **_argv){$/;"	f
+main	tests/test_unit_laplace.c	/^int main(void)$/;"	f
+main	tests/test_unit_mathops.c	/^int main(void)$/;"	f
+main	tests/test_unit_mdct.c	/^int main(int argc,char ** argv)$/;"	f
+main	tests/test_unit_rotation.c	/^int main(void)$/;"	f
+main	tests/test_unit_types.c	/^int main(void)$/;"	f
+maxLM	modes.h	/^   int         maxLM;$/;"	m	struct:OpusCustomMode
+maxshift	mdct.h	/^   int maxshift;$/;"	m	struct:__anon3
+mdct	modes.h	/^   mdct_lookup mdct;$/;"	m	struct:OpusCustomMode
+mdct_lookup	mdct.h	/^} mdct_lookup;$/;"	t	typeref:struct:__anon3
+mdct_twiddles960	static_modes_fixed.h	/^static const opus_val16 mdct_twiddles960[1800] = {$/;"	v
+mdct_twiddles960	static_modes_float.h	/^static const opus_val16 mdct_twiddles960[1800] = {$/;"	v
+median_of_3	celt_encoder.c	/^static opus_val16 median_of_3(const opus_val16 *x)$/;"	f	file:
+median_of_5	celt_encoder.c	/^static opus_val16 median_of_5(const opus_val16 *x)$/;"	f	file:
+mode	celt_decoder.c	/^   const OpusCustomMode *mode;$/;"	m	struct:OpusCustomDecoder	file:
+mode	celt_encoder.c	/^   const OpusCustomMode *mode;     \/**< Mode used by the encoder *\/$/;"	m	struct:OpusCustomEncoder	file:
+mode48000_960_120	static_modes_fixed.h	/^static const CELTMode mode48000_960_120 = {$/;"	v
+mode48000_960_120	static_modes_float.h	/^static const CELTMode mode48000_960_120 = {$/;"	v
+music_prob	celt.h	/^   float music_prob;$/;"	m	struct:__anon1
+n	mdct.h	/^   int n;$/;"	m	struct:__anon3
+nbAllocVectors	modes.h	/^   int          nbAllocVectors; \/**< Number of lines in the matrix below *\/$/;"	m	struct:OpusCustomMode
+nbEBands	modes.h	/^   int          nbEBands;$/;"	m	struct:OpusCustomMode
+nbShortMdcts	modes.h	/^   int         nbShortMdcts;$/;"	m	struct:OpusCustomMode
+nbits_total	entcode.h	/^   int            nbits_total;$/;"	m	struct:ec_ctx
+ncwrs_urow	cwrs.c	/^static opus_uint32 ncwrs_urow(unsigned _n,unsigned _k,opus_uint32 *_u){$/;"	f	file:
+ne10_factors_120	static_modes_fixed_arm_ne10.h	/^static const ne10_int32_t ne10_factors_120[64] = {$/;"	v
+ne10_factors_120	static_modes_float_arm_ne10.h	/^static const ne10_int32_t ne10_factors_120[64] = {$/;"	v
+ne10_factors_240	static_modes_fixed_arm_ne10.h	/^static const ne10_int32_t ne10_factors_240[64] = {$/;"	v
+ne10_factors_240	static_modes_float_arm_ne10.h	/^static const ne10_int32_t ne10_factors_240[64] = {$/;"	v
+ne10_factors_480	static_modes_fixed_arm_ne10.h	/^static const ne10_int32_t ne10_factors_480[64] = {$/;"	v
+ne10_factors_480	static_modes_float_arm_ne10.h	/^static const ne10_int32_t ne10_factors_480[64] = {$/;"	v
+ne10_factors_60	static_modes_fixed_arm_ne10.h	/^static const ne10_int32_t ne10_factors_60[64] = {$/;"	v
+ne10_factors_60	static_modes_float_arm_ne10.h	/^static const ne10_int32_t ne10_factors_60[64] = {$/;"	v
+ne10_fft_scaled_support	arm/celt_ne10_fft.c	/^static const int ne10_fft_scaled_support[NE10_FFTSCALED_SUPPORT_MAX] = {$/;"	v	file:
+ne10_fft_state_float32_t_120	static_modes_float_arm_ne10.h	/^static const ne10_fft_state_float32_t ne10_fft_state_float32_t_120 = {$/;"	v
+ne10_fft_state_float32_t_240	static_modes_float_arm_ne10.h	/^static const ne10_fft_state_float32_t ne10_fft_state_float32_t_240 = {$/;"	v
+ne10_fft_state_float32_t_480	static_modes_float_arm_ne10.h	/^static const ne10_fft_state_float32_t ne10_fft_state_float32_t_480 = {$/;"	v
+ne10_fft_state_float32_t_60	static_modes_float_arm_ne10.h	/^static const ne10_fft_state_float32_t ne10_fft_state_float32_t_60 = {$/;"	v
+ne10_fft_state_int32_t_120	static_modes_fixed_arm_ne10.h	/^static const ne10_fft_state_int32_t ne10_fft_state_int32_t_120 = {$/;"	v
+ne10_fft_state_int32_t_240	static_modes_fixed_arm_ne10.h	/^static const ne10_fft_state_int32_t ne10_fft_state_int32_t_240 = {$/;"	v
+ne10_fft_state_int32_t_480	static_modes_fixed_arm_ne10.h	/^static const ne10_fft_state_int32_t ne10_fft_state_int32_t_480 = {$/;"	v
+ne10_fft_state_int32_t_60	static_modes_fixed_arm_ne10.h	/^static const ne10_fft_state_int32_t ne10_fft_state_int32_t_60 = {$/;"	v
+ne10_twiddles_120	static_modes_fixed_arm_ne10.h	/^static const ne10_fft_cpx_int32_t ne10_twiddles_120[120] = {$/;"	v
+ne10_twiddles_120	static_modes_float_arm_ne10.h	/^static const ne10_fft_cpx_float32_t ne10_twiddles_120[120] = {$/;"	v
+ne10_twiddles_240	static_modes_fixed_arm_ne10.h	/^static const ne10_fft_cpx_int32_t ne10_twiddles_240[240] = {$/;"	v
+ne10_twiddles_240	static_modes_float_arm_ne10.h	/^static const ne10_fft_cpx_float32_t ne10_twiddles_240[240] = {$/;"	v
+ne10_twiddles_480	static_modes_fixed_arm_ne10.h	/^static const ne10_fft_cpx_int32_t ne10_twiddles_480[480] = {$/;"	v
+ne10_twiddles_480	static_modes_float_arm_ne10.h	/^static const ne10_fft_cpx_float32_t ne10_twiddles_480[480] = {$/;"	v
+ne10_twiddles_60	static_modes_fixed_arm_ne10.h	/^static const ne10_fft_cpx_int32_t ne10_twiddles_60[60] = {$/;"	v
+ne10_twiddles_60	static_modes_float_arm_ne10.h	/^static const ne10_fft_cpx_float32_t ne10_twiddles_60[60] = {$/;"	v
+nend_bits	entcode.h	/^   int            nend_bits;$/;"	m	struct:ec_ctx
+nfft	kiss_fft.h	/^    int nfft;$/;"	m	struct:kiss_fft_state
+noisiness	celt.h	/^   float noisiness;$/;"	m	struct:__anon1
+normalise_bands	bands.c	/^void normalise_bands(const CELTMode *m, const celt_sig * OPUS_RESTRICT freq, celt_norm * OPUS_RESTRICT X, const celt_ener *bandE, int end, int C, int M)$/;"	f
+normalise_residual	vq.c	/^static void normalise_residual(int * OPUS_RESTRICT iy, celt_norm * OPUS_RESTRICT X,$/;"	f	file:
+offs	entcode.h	/^   opus_uint32    offs;$/;"	m	struct:ec_ctx
+opus_alloc	os_support.h	/^static OPUS_INLINE void *opus_alloc (size_t size)$/;"	f
+opus_alloc_scratch	os_support.h	/^static OPUS_INLINE void *opus_alloc_scratch (size_t size)$/;"	f
+opus_cpu_capabilities	arm/armcpu.c	/^opus_uint32 opus_cpu_capabilities(void)$/;"	f
+opus_cpu_capabilities	arm/armcpu.c	/^static OPUS_INLINE opus_uint32 opus_cpu_capabilities(void){$/;"	f	file:
+opus_cpu_feature_check	x86/x86cpu.c	/^static void opus_cpu_feature_check(CPU_Feature *cpu_feature)$/;"	f	file:
+opus_custom_decode	celt_decoder.c	/^int opus_custom_decode(CELTDecoder * OPUS_RESTRICT st, const unsigned char *data, int len, opus_int16 * OPUS_RESTRICT pcm, int frame_size)$/;"	f
+opus_custom_decode_float	celt_decoder.c	/^int opus_custom_decode_float(CELTDecoder * OPUS_RESTRICT st, const unsigned char *data, int len, float * OPUS_RESTRICT pcm, int frame_size)$/;"	f
+opus_custom_decoder_create	celt_decoder.c	/^CELTDecoder *opus_custom_decoder_create(const CELTMode *mode, int channels, int *error)$/;"	f
+opus_custom_decoder_ctl	celt_decoder.c	/^int opus_custom_decoder_ctl(CELTDecoder * OPUS_RESTRICT st, int request, ...)$/;"	f
+opus_custom_decoder_destroy	celt_decoder.c	/^void opus_custom_decoder_destroy(CELTDecoder *st)$/;"	f
+opus_custom_decoder_get_size	celt_decoder.c	/^OPUS_CUSTOM_NOSTATIC int opus_custom_decoder_get_size(const CELTMode *mode, int channels)$/;"	f
+opus_custom_decoder_init	celt_decoder.c	/^OPUS_CUSTOM_NOSTATIC int opus_custom_decoder_init(CELTDecoder *st, const CELTMode *mode, int channels)$/;"	f
+opus_custom_encode	celt_encoder.c	/^int opus_custom_encode(CELTEncoder * OPUS_RESTRICT st, const opus_int16 * pcm, int frame_size, unsigned char *compressed, int nbCompressedBytes)$/;"	f
+opus_custom_encode_float	celt_encoder.c	/^int opus_custom_encode_float(CELTEncoder * OPUS_RESTRICT st, const float * pcm, int frame_size, unsigned char *compressed, int nbCompressedBytes)$/;"	f
+opus_custom_encoder_create	celt_encoder.c	/^CELTEncoder *opus_custom_encoder_create(const CELTMode *mode, int channels, int *error)$/;"	f
+opus_custom_encoder_ctl	celt_encoder.c	/^int opus_custom_encoder_ctl(CELTEncoder * OPUS_RESTRICT st, int request, ...)$/;"	f
+opus_custom_encoder_destroy	celt_encoder.c	/^void opus_custom_encoder_destroy(CELTEncoder *st)$/;"	f
+opus_custom_encoder_get_size	celt_encoder.c	/^OPUS_CUSTOM_NOSTATIC int opus_custom_encoder_get_size(const CELTMode *mode, int channels)$/;"	f
+opus_custom_encoder_init	celt_encoder.c	/^int opus_custom_encoder_init(CELTEncoder *st, const CELTMode *mode, int channels)$/;"	f
+opus_custom_encoder_init_arch	celt_encoder.c	/^static int opus_custom_encoder_init_arch(CELTEncoder *st, const CELTMode *mode,$/;"	f	file:
+opus_custom_mode_create	modes.c	/^CELTMode *opus_custom_mode_create(opus_int32 Fs, int frame_size, int *error)$/;"	f
+opus_custom_mode_destroy	modes.c	/^void opus_custom_mode_destroy(CELTMode *mode)$/;"	f
+opus_fft	arm/fft_arm.h	62;"	d
+opus_fft	kiss_fft.h	171;"	d
+opus_fft	kiss_fft.h	187;"	d
+opus_fft_alloc	kiss_fft.c	/^kiss_fft_state *opus_fft_alloc(int nfft,void * mem,size_t * lenmem, int arch)$/;"	f
+opus_fft_alloc_arch	arm/fft_arm.h	56;"	d
+opus_fft_alloc_arch	kiss_fft.h	161;"	d
+opus_fft_alloc_arch	kiss_fft.h	181;"	d
+opus_fft_alloc_arch_c	kiss_fft.c	/^int opus_fft_alloc_arch_c(kiss_fft_state *st) {$/;"	f
+opus_fft_alloc_arm_neon	arm/celt_ne10_fft.c	/^int opus_fft_alloc_arm_neon(kiss_fft_state *st)$/;"	f
+opus_fft_alloc_twiddles	kiss_fft.c	/^kiss_fft_state *opus_fft_alloc_twiddles(int nfft,void * mem,size_t * lenmem,$/;"	f
+opus_fft_c	kiss_fft.c	/^void opus_fft_c(const kiss_fft_state *st,const kiss_fft_cpx *fin,kiss_fft_cpx *fout)$/;"	f
+opus_fft_free	kiss_fft.c	/^void opus_fft_free(const kiss_fft_state *cfg, int arch)$/;"	f
+opus_fft_free_arch	arm/fft_arm.h	59;"	d
+opus_fft_free_arch	kiss_fft.h	166;"	d
+opus_fft_free_arch	kiss_fft.h	184;"	d
+opus_fft_free_arch_c	kiss_fft.c	/^void opus_fft_free_arch_c(kiss_fft_state *st) {$/;"	f
+opus_fft_free_arm_neon	arm/celt_ne10_fft.c	/^void opus_fft_free_arm_neon(kiss_fft_state *st)$/;"	f
+opus_fft_impl	kiss_fft.c	/^void opus_fft_impl(const kiss_fft_state *st,kiss_fft_cpx *fout)$/;"	f
+opus_fft_neon	arm/celt_ne10_fft.c	/^void opus_fft_neon(const kiss_fft_state *st,$/;"	f
+opus_free	os_support.h	/^static OPUS_INLINE void opus_free (void *ptr)$/;"	f
+opus_get_version_string	celt.c	/^const char *opus_get_version_string(void)$/;"	f
+opus_ifft	arm/fft_arm.h	65;"	d
+opus_ifft	kiss_fft.h	176;"	d
+opus_ifft	kiss_fft.h	190;"	d
+opus_ifft_c	kiss_fft.c	/^void opus_ifft_c(const kiss_fft_state *st,const kiss_fft_cpx *fin,kiss_fft_cpx *fout)$/;"	f
+opus_ifft_neon	arm/celt_ne10_fft.c	/^void opus_ifft_neon(const kiss_fft_state *st,$/;"	f
+opus_select_arch	arm/armcpu.c	/^int opus_select_arch(void)$/;"	f
+opus_select_arch	cpu_support.h	/^static OPUS_INLINE int opus_select_arch(void)$/;"	f
+opus_select_arch	x86/x86cpu.c	/^int opus_select_arch(void)$/;"	f
+opus_strerror	celt.c	/^const char *opus_strerror(int error)$/;"	f
+opus_val16	arch.h	/^typedef float opus_val16;$/;"	t
+opus_val16	arch.h	/^typedef opus_int16 opus_val16;$/;"	t
+opus_val32	arch.h	/^typedef float opus_val32;$/;"	t
+opus_val32	arch.h	/^typedef opus_int32 opus_val32;$/;"	t
+ordery_table	bands.c	/^static const int ordery_table[] = {$/;"	v	file:
+overlap	celt_decoder.c	/^   int overlap;$/;"	m	struct:OpusCustomDecoder	file:
+overlap	modes.h	/^   int          overlap;$/;"	m	struct:OpusCustomMode
+overlap_max	celt_encoder.c	/^   opus_val32 overlap_max;$/;"	m	struct:OpusCustomEncoder	file:
+patch_transient_decision	celt_encoder.c	/^static int patch_transient_decision(opus_val16 *newE, opus_val16 *oldE, int nbEBands,$/;"	f	file:
+pitch_downsample	pitch.c	/^void pitch_downsample(celt_sig * OPUS_RESTRICT x[], opus_val16 * OPUS_RESTRICT x_lp,$/;"	f
+pitch_search	pitch.c	/^void pitch_search(const opus_val16 * OPUS_RESTRICT x_lp, opus_val16 * OPUS_RESTRICT y,$/;"	f
+pkmax	tests/test_unit_cwrs32.c	/^static const int pkmax[NDIMS]={$/;"	v	file:
+pn	tests/test_unit_cwrs32.c	/^static const int pn[NDIMS]={$/;"	v	file:
+postfilter_gain	celt_decoder.c	/^   opus_val16 postfilter_gain;$/;"	m	struct:OpusCustomDecoder	file:
+postfilter_gain_old	celt_decoder.c	/^   opus_val16 postfilter_gain_old;$/;"	m	struct:OpusCustomDecoder	file:
+postfilter_period	celt_decoder.c	/^   int postfilter_period;$/;"	m	struct:OpusCustomDecoder	file:
+postfilter_period_old	celt_decoder.c	/^   int postfilter_period_old;$/;"	m	struct:OpusCustomDecoder	file:
+postfilter_tapset	celt_decoder.c	/^   int postfilter_tapset;$/;"	m	struct:OpusCustomDecoder	file:
+postfilter_tapset_old	celt_decoder.c	/^   int postfilter_tapset_old;$/;"	m	struct:OpusCustomDecoder	file:
+pred_coef	quant_bands.c	/^static const opus_val16 pred_coef[4] = {29440, 26112, 21248, 16384};$/;"	v	file:
+pred_coef	quant_bands.c	/^static const opus_val16 pred_coef[4] = {29440\/32768., 26112\/32768., 21248\/32768., 16384\/32768.};$/;"	v	file:
+preemph	modes.h	/^   opus_val16    preemph[4];$/;"	m	struct:OpusCustomMode
+preemph_memD	celt_decoder.c	/^   celt_sig preemph_memD[2];$/;"	m	struct:OpusCustomDecoder	file:
+preemph_memD	celt_encoder.c	/^   opus_val32 preemph_memD[2];$/;"	m	struct:OpusCustomEncoder	file:
+preemph_memE	celt_encoder.c	/^   opus_val32 preemph_memE[2];$/;"	m	struct:OpusCustomEncoder	file:
+prefilter_gain	celt_encoder.c	/^   opus_val16 prefilter_gain;$/;"	m	struct:OpusCustomEncoder	file:
+prefilter_gain_old	celt_encoder.c	/^   opus_val16 prefilter_gain_old;$/;"	m	struct:OpusCustomEncoder	file:
+prefilter_period	celt_encoder.c	/^   int prefilter_period;$/;"	m	struct:OpusCustomEncoder	file:
+prefilter_period_old	celt_encoder.c	/^   int prefilter_period_old;$/;"	m	struct:OpusCustomEncoder	file:
+prefilter_tapset	celt_encoder.c	/^   int prefilter_tapset;$/;"	m	struct:OpusCustomEncoder	file:
+prefilter_tapset_old	celt_encoder.c	/^   int prefilter_tapset_old;$/;"	m	struct:OpusCustomEncoder	file:
+priv	kiss_fft.h	/^   void *priv;$/;"	m	struct:arch_fft_state
+pulses2bits	rate.h	/^static OPUS_INLINE int pulses2bits(const CELTMode *m, int band, int LM, int pulses)$/;"	f
+qalloc	bands.c	/^   int qalloc;$/;"	m	struct:split_ctx	file:
+quant_all_bands	bands.c	/^void quant_all_bands(int encode, const CELTMode *m, int start, int end,$/;"	f
+quant_band	bands.c	/^static unsigned quant_band(struct band_ctx *ctx, celt_norm *X,$/;"	f	file:
+quant_band_n1	bands.c	/^static unsigned quant_band_n1(struct band_ctx *ctx, celt_norm *X, celt_norm *Y, int b,$/;"	f	file:
+quant_band_stereo	bands.c	/^static unsigned quant_band_stereo(struct band_ctx *ctx, celt_norm *X, celt_norm *Y,$/;"	f	file:
+quant_coarse_energy	quant_bands.c	/^void quant_coarse_energy(const CELTMode *m, int start, int end, int effEnd,$/;"	f
+quant_coarse_energy_impl	quant_bands.c	/^static int quant_coarse_energy_impl(const CELTMode *m, int start, int end,$/;"	f	file:
+quant_energy_finalise	quant_bands.c	/^void quant_energy_finalise(const CELTMode *m, int start, int end, opus_val16 *oldEBands, opus_val16 *error, int *fine_quant, int *fine_priority, int bits_left, ec_enc *enc, int C)$/;"	f
+quant_fine_energy	quant_bands.c	/^void quant_fine_energy(const CELTMode *m, int start, int end, opus_val16 *oldEBands, opus_val16 *error, int *fine_quant, ec_enc *enc, int C)$/;"	f
+quant_partition	bands.c	/^static unsigned quant_partition(struct band_ctx *ctx, celt_norm *X,$/;"	f	file:
+r	kiss_fft.h	/^    kiss_fft_scalar r;$/;"	m	struct:__anon4
+r	kiss_fft.h	/^   kiss_twiddle_scalar r;$/;"	m	struct:__anon5
+rem	entcode.h	/^   int            rem;$/;"	m	struct:ec_ctx
+remaining_bits	bands.c	/^   opus_int32 remaining_bits;$/;"	m	struct:band_ctx	file:
+remove_doubling	pitch.c	/^opus_val16 remove_doubling(opus_val16 *x, int maxperiod, int minperiod,$/;"	f
+renormalise_vector	mips/vq_mipsr1.h	73;"	d
+renormalise_vector	vq.c	/^void renormalise_vector(celt_norm *X, int N, opus_val16 gain, int arch)$/;"	f
+renormalise_vector_mips	mips/vq_mipsr1.h	/^void renormalise_vector_mips(celt_norm *X, int N, opus_val16 gain, int arch)$/;"	f
+resampling_factor	celt.c	/^int resampling_factor(opus_int32 rate)$/;"	f
+ret	tests/test_unit_dft.c	/^int ret = 0;$/;"	v
+ret	tests/test_unit_mathops.c	/^int ret = 0;$/;"	v
+ret	tests/test_unit_mdct.c	/^int ret = 0;$/;"	v
+ret	tests/test_unit_rotation.c	/^int ret=0;$/;"	v
+rng	celt_decoder.c	/^   opus_uint32 rng;$/;"	m	struct:OpusCustomDecoder	file:
+rng	celt_encoder.c	/^   opus_uint32 rng;$/;"	m	struct:OpusCustomEncoder	file:
+rng	entcode.h	/^   opus_uint32    rng;$/;"	m	struct:ec_ctx
+run_prefilter	celt_encoder.c	/^static int run_prefilter(CELTEncoder *st, celt_sig *in, celt_sig *prefilter_mem, int CC, int N,$/;"	f	file:
+scale	kiss_fft.h	/^    opus_val16 scale;$/;"	m	struct:kiss_fft_state
+scale_shift	kiss_fft.h	/^    int scale_shift;$/;"	m	struct:kiss_fft_state
+scratch_ptr	stack_alloc.h	/^char *scratch_ptr=0;$/;"	v
+second_check	pitch.c	/^static const int second_check[16] = {0, 0, 3, 2, 3, 2, 5, 2, 3, 2, 3, 2, 5, 2, 3, 2};$/;"	v	file:
+seed	bands.c	/^   opus_uint32 seed;$/;"	m	struct:band_ctx	file:
+shift	kiss_fft.h	/^    int shift;$/;"	m	struct:kiss_fft_state
+shortMdctSize	modes.h	/^   int         shortMdctSize;$/;"	m	struct:OpusCustomMode
+signalling	celt_decoder.c	/^   int signalling;$/;"	m	struct:OpusCustomDecoder	file:
+signalling	celt_encoder.c	/^   int signalling;$/;"	m	struct:OpusCustomEncoder	file:
+size	modes.h	/^   int size;$/;"	m	struct:__anon2
+skip_plc	celt_decoder.c	/^   int skip_plc;$/;"	m	struct:OpusCustomDecoder	file:
+small_energy_icdf	quant_bands.c	/^static const unsigned char small_energy_icdf[3]={2,1,0};$/;"	v	file:
+spec_avg	celt_encoder.c	/^   opus_val16 spec_avg;$/;"	m	struct:OpusCustomEncoder	file:
+split_ctx	bands.c	/^struct split_ctx {$/;"	s	file:
+spread	bands.c	/^   int spread;$/;"	m	struct:band_ctx	file:
+spread_decision	celt_encoder.c	/^   int spread_decision;$/;"	m	struct:OpusCustomEncoder	file:
+spread_icdf	celt.h	/^static const unsigned char spread_icdf[4] = {25, 23, 2, 0};$/;"	v
+spreading_decision	bands.c	/^int spreading_decision(const CELTMode *m, const celt_norm *X, int *average,$/;"	f
+start	celt_decoder.c	/^   int start, end;$/;"	m	struct:OpusCustomDecoder	file:
+start	celt_encoder.c	/^   int start, end;$/;"	m	struct:OpusCustomEncoder	file:
+static_mode_list	static_modes_fixed.h	/^static const CELTMode * const static_mode_list[TOTAL_MODES] = {$/;"	v
+static_mode_list	static_modes_float.h	/^static const CELTMode * const static_mode_list[TOTAL_MODES] = {$/;"	v
+stereo_analysis	celt_encoder.c	/^static int stereo_analysis(const CELTMode *m, const celt_norm *X,$/;"	f	file:
+stereo_itheta	vq.c	/^int stereo_itheta(const celt_norm *X, const celt_norm *Y, int stereo, int N, int arch)$/;"	f
+stereo_merge	bands.c	/^static void stereo_merge(celt_norm * OPUS_RESTRICT X, celt_norm * OPUS_RESTRICT Y, opus_val16 mid, int N, int arch)$/;"	f	file:
+stereo_saving	celt_encoder.c	/^   opus_val16 stereo_saving;$/;"	m	struct:OpusCustomEncoder	file:
+stereo_split	bands.c	/^static void stereo_split(celt_norm * OPUS_RESTRICT X, celt_norm * OPUS_RESTRICT Y, int N)$/;"	f	file:
+storage	entcode.h	/^   opus_uint32    storage;$/;"	m	struct:ec_ctx
+stream_channels	celt_decoder.c	/^   int stream_channels;$/;"	m	struct:OpusCustomDecoder	file:
+stream_channels	celt_encoder.c	/^   int stream_channels;$/;"	m	struct:OpusCustomEncoder	file:
+syn_mem	celt_encoder.c	/^   celt_sig syn_mem[2][2*MAX_PERIOD+MAX_PERIOD\/2];$/;"	m	struct:OpusCustomEncoder	file:
+tapset_decision	celt_encoder.c	/^   int tapset_decision;$/;"	m	struct:OpusCustomEncoder	file:
+tapset_icdf	celt.h	/^static const unsigned char tapset_icdf[3]={2,1,0};$/;"	v
+test1d	tests/test_unit_dft.c	/^void test1d(int nfft,int isinverse,int arch)$/;"	f
+test1d	tests/test_unit_mdct.c	/^void test1d(int nfft,int isinverse,int arch)$/;"	f
+test_rotation	tests/test_unit_rotation.c	/^void test_rotation(int N, int K)$/;"	f
+testbitexactcos	tests/test_unit_mathops.c	/^void testbitexactcos(void)$/;"	f
+testbitexactlog2tan	tests/test_unit_mathops.c	/^void testbitexactlog2tan(void)$/;"	f
+testdiv	tests/test_unit_mathops.c	/^void testdiv(void)$/;"	f
+testexp2	tests/test_unit_mathops.c	/^void testexp2(void)$/;"	f
+testexp2log2	tests/test_unit_mathops.c	/^void testexp2log2(void)$/;"	f
+testilog2	tests/test_unit_mathops.c	/^void testilog2(void)$/;"	f
+testlog2	tests/test_unit_mathops.c	/^void testlog2(void)$/;"	f
+testsqrt	tests/test_unit_mathops.c	/^void testsqrt(void)$/;"	f
+tf_analysis	celt_encoder.c	/^static int tf_analysis(const CELTMode *m, int len, int isTransient,$/;"	f	file:
+tf_change	bands.c	/^   int tf_change;$/;"	m	struct:band_ctx	file:
+tf_decode	celt_decoder.c	/^static void tf_decode(int start, int end, int isTransient, int *tf_res, int LM, ec_dec *dec)$/;"	f	file:
+tf_encode	celt_encoder.c	/^static void tf_encode(int start, int end, int isTransient, int *tf_res, int LM, int tf_select, ec_enc *enc)$/;"	f	file:
+tf_select_table	celt.c	/^const signed char tf_select_table[4][8] = {$/;"	v
+toOpus	celt.h	/^static OPUS_INLINE int toOpus(unsigned char c)$/;"	f
+toOpusTable	celt.h	/^static const unsigned char toOpusTable[20] = {$/;"	v
+tonal_average	celt_encoder.c	/^   int tonal_average;$/;"	m	struct:OpusCustomEncoder	file:
+tonality	celt.h	/^   float tonality;$/;"	m	struct:__anon1
+tonality_slope	celt.h	/^   float tonality_slope;$/;"	m	struct:__anon1
+transient_analysis	celt_encoder.c	/^static int transient_analysis(const opus_val32 * OPUS_RESTRICT in, int len, int C,$/;"	f	file:
+trig	mdct.h	/^   const kiss_twiddle_scalar * OPUS_RESTRICT trig;$/;"	m	struct:__anon3
+trim_icdf	celt.h	/^static const unsigned char trim_icdf[11] = {126, 124, 119, 109, 87, 41, 19, 9, 4, 2, 0};$/;"	v
+twiddles	kiss_fft.h	/^    const kiss_twiddle_cpx *twiddles;$/;"	m	struct:kiss_fft_state
+unext	cwrs.c	/^static OPUS_INLINE void unext(opus_uint32 *_ui,unsigned _len,opus_uint32 _ui0){$/;"	f	file:
+unquant_coarse_energy	quant_bands.c	/^void unquant_coarse_energy(const CELTMode *m, int start, int end, opus_val16 *oldEBands, int intra, ec_dec *dec, int C, int LM)$/;"	f
+unquant_energy_finalise	quant_bands.c	/^void unquant_energy_finalise(const CELTMode *m, int start, int end, opus_val16 *oldEBands, int *fine_quant,  int *fine_priority, int bits_left, ec_dec *dec, int C)$/;"	f
+unquant_fine_energy	quant_bands.c	/^void unquant_fine_energy(const CELTMode *m, int start, int end, opus_val16 *oldEBands, int *fine_quant, ec_dec *dec, int C)$/;"	f
+uprev	cwrs.c	/^static OPUS_INLINE void uprev(opus_uint32 *_ui,unsigned _n,opus_uint32 _ui0){$/;"	f	file:
+upsample	celt_encoder.c	/^   int upsample;$/;"	m	struct:OpusCustomEncoder	file:
+val	entcode.h	/^   opus_uint32    val;$/;"	m	struct:ec_ctx
+valid	celt.h	/^   int valid;$/;"	m	struct:__anon1
+variable_duration	celt_encoder.c	/^   int variable_duration;$/;"	m	struct:OpusCustomEncoder	file:
+vbr	celt_encoder.c	/^   int vbr;$/;"	m	struct:OpusCustomEncoder	file:
+vbr_count	celt_encoder.c	/^   opus_int32 vbr_count;$/;"	m	struct:OpusCustomEncoder	file:
+vbr_drift	celt_encoder.c	/^   opus_int32 vbr_drift;$/;"	m	struct:OpusCustomEncoder	file:
+vbr_offset	celt_encoder.c	/^   opus_int32 vbr_offset;$/;"	m	struct:OpusCustomEncoder	file:
+vbr_reservoir	celt_encoder.c	/^   opus_int32 vbr_reservoir;$/;"	m	struct:OpusCustomEncoder	file:
+window	modes.h	/^   const opus_val16 *window;$/;"	m	struct:OpusCustomMode
+window120	static_modes_fixed.h	/^static const opus_val16 window120[120] = {$/;"	v
+window120	static_modes_float.h	/^static const opus_val16 window120[120] = {$/;"	v
+xcorr_kernel	arm/pitch_arm.h	88;"	d
+xcorr_kernel	arm/pitch_arm.h	93;"	d
+xcorr_kernel	mips/pitch_mipsr1.h	158;"	d
+xcorr_kernel	pitch.h	133;"	d
+xcorr_kernel	x86/pitch_sse.h	58;"	d
+xcorr_kernel	x86/pitch_sse.h	63;"	d
+xcorr_kernel	x86/pitch_sse.h	75;"	d
+xcorr_kernel_c	pitch.h	/^static OPUS_INLINE void xcorr_kernel_c(const opus_val16 * x, const opus_val16 * y, opus_val32 sum[4], int len)$/;"	f
+xcorr_kernel_edsp	arm/celt_pitch_xcorr_arm.s	/^xcorr_kernel_edsp PROC$/;"	l
+xcorr_kernel_edsp_done	arm/celt_pitch_xcorr_arm.s	/^xcorr_kernel_edsp_done$/;"	l
+xcorr_kernel_edsp_process4	arm/celt_pitch_xcorr_arm.s	/^xcorr_kernel_edsp_process4$/;"	l
+xcorr_kernel_edsp_process4_done	arm/celt_pitch_xcorr_arm.s	/^xcorr_kernel_edsp_process4_done$/;"	l
+xcorr_kernel_edsp_start	arm/celt_pitch_xcorr_arm.s	/^xcorr_kernel_edsp_start$/;"	l
+xcorr_kernel_mips	mips/pitch_mipsr1.h	/^static inline void xcorr_kernel_mips(const opus_val16 * x,$/;"	f
+xcorr_kernel_neon	arm/celt_pitch_xcorr_arm.s	/^xcorr_kernel_neon PROC$/;"	l
+xcorr_kernel_neon_fixed	arm/celt_neon_intr.c	/^void xcorr_kernel_neon_fixed(const opus_val16 * x, const opus_val16 * y, opus_val32 sum[4], int len)$/;"	f
+xcorr_kernel_neon_float	arm/celt_neon_intr.c	/^static void xcorr_kernel_neon_float(const float32_t *x, const float32_t *y,$/;"	f	file:
+xcorr_kernel_neon_float_process1	arm/celt_neon_intr.c	/^static void xcorr_kernel_neon_float_process1(const float32_t *x,$/;"	f	file:
+xcorr_kernel_neon_process1	arm/celt_pitch_xcorr_arm.s	/^xcorr_kernel_neon_process1$/;"	l
+xcorr_kernel_neon_process2	arm/celt_pitch_xcorr_arm.s	/^xcorr_kernel_neon_process2$/;"	l
+xcorr_kernel_neon_process4	arm/celt_pitch_xcorr_arm.s	/^xcorr_kernel_neon_process4$/;"	l
+xcorr_kernel_neon_process8	arm/celt_pitch_xcorr_arm.s	/^xcorr_kernel_neon_process8$/;"	l
+xcorr_kernel_neon_start	arm/celt_pitch_xcorr_arm.s	/^xcorr_kernel_neon_start$/;"	l
+xcorr_kernel_sse	x86/pitch_sse.c	/^void xcorr_kernel_sse(const opus_val16 *x, const opus_val16 *y, opus_val32 sum[4], int len)$/;"	f
+xcorr_kernel_sse4_1	x86/pitch_sse4_1.c	/^void xcorr_kernel_sse4_1(const opus_val16 * x, const opus_val16 * y, opus_val32 sum[ 4 ], int len)$/;"	f

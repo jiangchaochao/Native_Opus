@@ -1,0 +1,341 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ANALYSIS_BUF_SIZE	analysis.h	37;"	d
+ANALYSIS_H	analysis.h	29;"	d
+BANDS	opus_compare.c	/^static const int BANDS[NBANDS+1]={$/;"	v	file:
+ChannelLayout	opus_private.h	/^typedef struct ChannelLayout {$/;"	s
+ChannelLayout	opus_private.h	/^} ChannelLayout;$/;"	t	typeref:struct:ChannelLayout
+DETECT_SIZE	analysis.h	39;"	d
+DecControl	opus_decoder.c	/^   silk_DecControlStruct DecControl;$/;"	m	struct:OpusDecoder	file:
+E	analysis.h	/^   float E[NB_FRAMES][NB_TBANDS];$/;"	m	struct:__anon5
+E_count	analysis.h	/^   int E_count;$/;"	m	struct:__anon5
+Etracker	analysis.h	/^   float Etracker;$/;"	m	struct:__anon5
+Fs	opus_decoder.c	/^   opus_int32   Fs;          \/** Sampling rate (at the API level) *\/$/;"	m	struct:OpusDecoder	file:
+Fs	opus_encoder.c	/^    opus_int32   Fs;$/;"	m	struct:OpusEncoder	file:
+Java_com_example_hellojni_OpusTools_OpusDecInit	opus_native.c	/^JNIEXPORT jint JNICALL  Java_com_example_hellojni_OpusTools_OpusDecInit(JNIEnv *env, jobject obj, jint lSamplingRate, jint lChannels)$/;"	f
+Java_com_example_hellojni_OpusTools_OpusDecode	opus_native.c	/^JNIEXPORT jint JNICALL Java_com_example_hellojni_OpusTools_OpusDecode(JNIEnv *env, jobject obj, jbyteArray szByData, jint llenth, jshortArray szpcmData, jint lFrame_size, jint lDecode_fec)$/;"	f
+Java_com_example_hellojni_OpusTools_OpusDecoderDestroy	opus_native.c	/^JNIEXPORT void JNICALL Java_com_example_hellojni_OpusTools_OpusDecoderDestroy(JNIEnv *env, jobject obj)$/;"	f
+Java_com_example_hellojni_OpusTools_OpusEncInit	opus_native.c	/^JNIEXPORT jint JNICALL Java_com_example_hellojni_OpusTools_OpusEncInit(JNIEnv *evn, jobject obj, jint lSamplingRate, jint lChannels, jint lApplication)$/;"	f
+Java_com_example_hellojni_OpusTools_OpusEncode	opus_native.c	/^JNIEXPORT jint JNICALL Java_com_example_hellojni_OpusTools_OpusEncode(JNIEnv *env, jobject obj, jshortArray szPcmData, jint lFrame_size, jbyteArray szByData, jint max_data_bytes)$/;"	f
+Java_com_example_hellojni_OpusTools_OpusEncoderDestroy	opus_native.c	/^JNIEXPORT void JNICALL Java_com_example_hellojni_OpusTools_OpusEncoderDestroy(JNIEnv *env, jobject obj)$/;"	f
+MAPPING_TYPE_AMBISONICS	opus_multistream_encoder.c	/^  MAPPING_TYPE_AMBISONICS$/;"	e	enum:__anon3	file:
+MAPPING_TYPE_NONE	opus_multistream_encoder.c	/^  MAPPING_TYPE_NONE,$/;"	e	enum:__anon3	file:
+MAPPING_TYPE_SURROUND	opus_multistream_encoder.c	/^  MAPPING_TYPE_SURROUND$/;"	e	enum:__anon3	file:
+MAX_DYNAMIC_FRAMESIZE	opus_encoder.c	525;"	d	file:
+MAX_ENCODER_BUFFER	opus_encoder.c	54;"	d	file:
+MAX_NEURONS	mlp.c	39;"	d	file:
+MAX_PACKET	opus_demo.c	43;"	d	file:
+MAX_PACKETOUT	repacketizer_demo.c	37;"	d	file:
+MLP	mlp.h	/^} MLP;$/;"	t	typeref:struct:__anon1
+MODE_CELT_ONLY	opus_private.h	62;"	d
+MODE_HYBRID	opus_private.h	61;"	d
+MODE_SILK_ONLY	opus_private.h	60;"	d
+MS_FRAME_TMP	opus_multistream_encoder.c	816;"	d	file:
+M_PI	analysis.c	43;"	d	file:
+MappingType	opus_multistream_encoder.c	/^} MappingType;$/;"	t	typeref:enum:__anon3	file:
+NBANDS	opus_compare.c	153;"	d	file:
+NB_FRAMES	analysis.h	34;"	d
+NB_TBANDS	analysis.h	35;"	d
+NB_TONAL_SKIP_BANDS	analysis.c	110;"	d	file:
+NB_TOT_BANDS	analysis.h	36;"	d
+NFREQS	opus_compare.c	154;"	d	file:
+OPUS_COSF	opus_compare.c	35;"	d	file:
+OPUS_DECODER_RESET_START	opus_decoder.c	65;"	d	file:
+OPUS_ENCODER_RESET_START	opus_encoder.c	89;"	d	file:
+OPUS_GET_VOICE_RATIO	opus_private.h	81;"	d
+OPUS_GET_VOICE_RATIO_REQUEST	opus_private.h	65;"	d
+OPUS_PI	opus_compare.c	33;"	d	file:
+OPUS_PRIVATE_H	opus_private.h	30;"	d
+OPUS_SET_FORCE_MODE	opus_private.h	85;"	d
+OPUS_SET_FORCE_MODE_REQUEST	opus_private.h	84;"	d
+OPUS_SET_VOICE_RATIO	opus_private.h	76;"	d
+OPUS_SET_VOICE_RATIO_REQUEST	opus_private.h	64;"	d
+OPUS_SINF	opus_compare.c	36;"	d	file:
+OpusDecoder	opus_decoder.c	/^struct OpusDecoder {$/;"	s	file:
+OpusEncoder	opus_encoder.c	/^struct OpusEncoder {$/;"	s	file:
+OpusMSDecoder	opus_multistream_decoder.c	/^struct OpusMSDecoder {$/;"	s	file:
+OpusMSEncoder	opus_multistream_encoder.c	/^struct OpusMSEncoder {$/;"	s	file:
+OpusRepacketizer	opus_private.h	/^struct OpusRepacketizer {$/;"	s
+PCM2VAL	opus_encoder.c	734;"	d	file:
+PCM2VAL	opus_encoder.c	736;"	d	file:
+StereoWidthState	opus_encoder.c	/^} StereoWidthState;$/;"	t	typeref:struct:__anon4	file:
+TEST_WIN_SIZE	opus_compare.c	162;"	d	file:
+TEST_WIN_STEP	opus_compare.c	163;"	d	file:
+TONALITY_ANALYSIS_RESET_START	analysis.h	43;"	d
+TonalityAnalysisState	analysis.h	/^} TonalityAnalysisState;$/;"	t	typeref:struct:__anon5
+VorbisLayout	opus_multistream_encoder.c	/^} VorbisLayout;$/;"	t	typeref:struct:__anon2	file:
+XX	opus_encoder.c	/^   opus_val32 XX, XY, YY;$/;"	m	struct:__anon4	file:
+XY	opus_encoder.c	/^   opus_val32 XX, XY, YY;$/;"	m	struct:__anon4	file:
+YY	opus_encoder.c	/^   opus_val32 XX, XY, YY;$/;"	m	struct:__anon4	file:
+_MLP_H_	mlp.h	29;"	d
+align	opus_private.h	/^static OPUS_INLINE int align(int i)$/;"	f
+ambisonics_rate_allocation	opus_multistream_encoder.c	/^static void ambisonics_rate_allocation($/;"	f	file:
+analysis	opus_encoder.c	/^    TonalityAnalysisState analysis;$/;"	m	struct:OpusEncoder	file:
+analysis_offset	analysis.h	/^   int analysis_offset;$/;"	m	struct:__anon5
+analysis_window	analysis.c	/^static const float analysis_window[240] = {$/;"	v	file:
+angle	analysis.h	/^   float angle[240];$/;"	m	struct:__anon5
+application	opus_encoder.c	/^    int          application;$/;"	m	struct:OpusEncoder	file:
+application	opus_multistream_encoder.c	/^   int application;$/;"	m	struct:OpusMSEncoder	file:
+arch	analysis.h	/^   int arch;$/;"	m	struct:__anon5
+arch	opus_decoder.c	/^   int          arch;$/;"	m	struct:OpusDecoder	file:
+arch	opus_encoder.c	/^    int          arch;$/;"	m	struct:OpusEncoder	file:
+arch	opus_multistream_encoder.c	/^   int arch;$/;"	m	struct:OpusMSEncoder	file:
+band_energy	opus_compare.c	/^static void band_energy(float *_out,float *_ps,const int *_bands,int _nbands,$/;"	f	file:
+bandwidth	opus_decoder.c	/^   int          bandwidth;$/;"	m	struct:OpusDecoder	file:
+bandwidth	opus_encoder.c	/^    int          bandwidth;$/;"	m	struct:OpusEncoder	file:
+bitrate_bps	opus_encoder.c	/^    opus_int32   bitrate_bps;$/;"	m	struct:OpusEncoder	file:
+bitrate_bps	opus_multistream_encoder.c	/^   opus_int32 bitrate_bps;$/;"	m	struct:OpusMSEncoder	file:
+cA	analysis.c	112;"	d	file:
+cB	analysis.c	113;"	d	file:
+cC	analysis.c	114;"	d	file:
+cE	analysis.c	115;"	d	file:
+celt_dec_offset	opus_decoder.c	/^   int          celt_dec_offset;$/;"	m	struct:OpusDecoder	file:
+celt_enc_offset	opus_encoder.c	/^    int          celt_enc_offset;$/;"	m	struct:OpusEncoder	file:
+celt_hq_test	opus_demo.c	/^static const int celt_hq_test[][4] = {$/;"	v	file:
+celt_test	opus_demo.c	/^static const int celt_test[][4] = {$/;"	v	file:
+channel_pos	opus_multistream_encoder.c	/^static void channel_pos(int channels, int pos[8])$/;"	f	file:
+channels	opus_decoder.c	/^   int          channels;$/;"	m	struct:OpusDecoder	file:
+channels	opus_encoder.c	/^    int          channels;$/;"	m	struct:OpusEncoder	file:
+char_to_int	opus_demo.c	/^static opus_uint32 char_to_int(unsigned char ch[4])$/;"	f	file:
+char_to_int	repacketizer_demo.c	/^static opus_uint32 char_to_int(unsigned char ch[4])$/;"	f	file:
+check_alloc	opus_compare.c	/^static void *check_alloc(void *_ptr){$/;"	f	file:
+check_encoder_option	opus_demo.c	/^static void check_encoder_option(int decode_only, const char *opt)$/;"	f	file:
+cmean	analysis.h	/^   float cmean[8];$/;"	m	struct:__anon5
+compute_frame_size	opus_encoder.c	/^opus_int32 compute_frame_size(const void *analysis_pcm, int frame_size,$/;"	f
+compute_stereo_width	opus_encoder.c	/^opus_val16 compute_stereo_width(const opus_val16 *pcm, int frame_size, opus_int32 Fs, StereoWidthState *mem)$/;"	f
+count	analysis.h	/^   int count;$/;"	m	struct:__anon5
+d2_angle	analysis.h	/^   float d2_angle[240];$/;"	m	struct:__anon5
+d_angle	analysis.h	/^   float d_angle[240];$/;"	m	struct:__anon5
+dc_reject	opus_encoder.c	/^static void dc_reject(const opus_val16 *in, opus_int32 cutoff_Hz, opus_val16 *out, opus_val32 *hp_mem, int len, int channels, opus_int32 Fs)$/;"	f	file:
+dct_table	analysis.c	/^static const float dct_table[128] = {$/;"	v	file:
+dec	opus_native.c	/^OpusDecoder *dec;     \/*解码*\/$/;"	v
+decode_gain	opus_decoder.c	/^   int          decode_gain;$/;"	m	struct:OpusDecoder	file:
+delay_buffer	opus_encoder.c	/^    opus_val16   delay_buffer[MAX_ENCODER_BUFFER*2];$/;"	m	struct:OpusEncoder	file:
+delay_compensation	opus_encoder.c	/^    int          delay_compensation;$/;"	m	struct:OpusEncoder	file:
+detected_bandwidth	opus_encoder.c	/^    int          detected_bandwidth;$/;"	m	struct:OpusEncoder	file:
+downmix_float	opus_encoder.c	/^void downmix_float(const void *_x, opus_val32 *sub, int subframe, int offset, int c1, int c2, int C)$/;"	f
+downmix_func	opus_private.h	/^typedef void (*downmix_func)(const void *, opus_val32 *, int, int, int, int, int);$/;"	t
+downmix_int	opus_encoder.c	/^void downmix_int(const void *_x, opus_val32 *sub, int subframe, int offset, int c1, int c2, int C)$/;"	f
+enc	opus_native.c	/^OpusEncoder *enc;      \/*编码*\/$/;"	v
+encode_size	opus.c	/^int encode_size(int size, unsigned char *data)$/;"	f
+encoder_buffer	opus_encoder.c	/^    int          encoder_buffer;$/;"	m	struct:OpusEncoder	file:
+energy_masking	opus_encoder.c	/^    opus_val16 * energy_masking;$/;"	m	struct:OpusEncoder	file:
+extra_bands	analysis.c	/^static const int extra_bands[NB_TOT_BANDS+1] = {$/;"	v	file:
+fast_atan2f	analysis.c	/^static OPUS_INLINE float fast_atan2f(float y, float x) {$/;"	f	file:
+first	opus_encoder.c	/^    int          first;$/;"	m	struct:OpusEncoder	file:
+force_channels	opus_encoder.c	/^    int          force_channels;$/;"	m	struct:OpusEncoder	file:
+frame_size	opus_decoder.c	/^   int          frame_size;$/;"	m	struct:OpusDecoder	file:
+frame_size_select	opus_encoder.c	/^opus_int32 frame_size_select(opus_int32 frame_size, int variable_duration, opus_int32 Fs)$/;"	f
+frames	opus_private.h	/^   const unsigned char *frames[48];$/;"	m	struct:OpusRepacketizer
+framesize	opus_private.h	/^   int framesize;$/;"	m	struct:OpusRepacketizer
+gain_fade	opus_encoder.c	/^static void gain_fade(const opus_val16 *in, opus_val16 *out, opus_val16 g1, opus_val16 g2,$/;"	f	file:
+gen_toc	opus_encoder.c	/^static unsigned char gen_toc(int mode, int framerate, int bandwidth, int channels)$/;"	f	file:
+get_left_channel	opus_multistream.c	/^int get_left_channel(const ChannelLayout *layout, int stream_id, int prev)$/;"	f
+get_mono_channel	opus_multistream.c	/^int get_mono_channel(const ChannelLayout *layout, int stream_id, int prev)$/;"	f
+get_right_channel	opus_multistream.c	/^int get_right_channel(const ChannelLayout *layout, int stream_id, int prev)$/;"	f
+highE	analysis.h	/^   float highE[NB_TBANDS];$/;"	m	struct:__anon5
+hp_cutoff	opus_encoder.c	/^static void hp_cutoff(const opus_val16 *in, opus_int32 cutoff_Hz, opus_val16 *out, opus_val32 *hp_mem, int len, int channels, opus_int32 Fs)$/;"	f	file:
+hp_mem	opus_encoder.c	/^    opus_val32   hp_mem[4];$/;"	m	struct:OpusEncoder	file:
+hybrid24_test	opus_demo.c	/^static const int hybrid24_test[][4] = {$/;"	v	file:
+hybrid48_test	opus_demo.c	/^static const int hybrid48_test[][4] = {$/;"	v	file:
+hybrid_stereo_width_Q14	opus_encoder.c	/^    opus_int16   hybrid_stereo_width_Q14;$/;"	m	struct:OpusEncoder	file:
+info	analysis.h	/^   AnalysisInfo info[DETECT_SIZE];$/;"	m	struct:__anon5
+inmem	analysis.h	/^   opus_val32 inmem[ANALYSIS_BUF_SIZE];$/;"	m	struct:__anon5
+int_to_char	opus_demo.c	/^static void int_to_char(opus_uint32 i, unsigned char ch[4])$/;"	f	file:
+int_to_char	repacketizer_demo.c	/^static void int_to_char(opus_uint32 i, unsigned char ch[4])$/;"	f	file:
+last_music	analysis.h	/^   int last_music;$/;"	m	struct:__anon5
+last_packet_duration	opus_decoder.c	/^   int          last_packet_duration;$/;"	m	struct:OpusDecoder	file:
+last_transition	analysis.h	/^   int last_transition;$/;"	m	struct:__anon5
+layers	mlp.h	/^    int layers;$/;"	m	struct:__anon1
+layout	opus_multistream_decoder.c	/^   ChannelLayout layout;$/;"	m	struct:OpusMSDecoder	file:
+layout	opus_multistream_encoder.c	/^   ChannelLayout layout;$/;"	m	struct:OpusMSEncoder	file:
+len	opus_private.h	/^   opus_int16 len[48];$/;"	m	struct:OpusRepacketizer
+lfe	opus_encoder.c	/^    int          lfe;$/;"	m	struct:OpusEncoder	file:
+lfe_stream	opus_multistream_encoder.c	/^   int lfe_stream;$/;"	m	struct:OpusMSEncoder	file:
+logSum	opus_multistream_encoder.c	/^opus_val16 logSum(opus_val16 a, opus_val16 b)$/;"	f
+logSum	opus_multistream_encoder.c	/^static opus_val16 logSum(opus_val16 a, opus_val16 b)$/;"	f	file:
+lowE	analysis.h	/^   float lowE[NB_TBANDS];$/;"	m	struct:__anon5
+lowECount	analysis.h	/^   float lowECount;$/;"	m	struct:__anon5
+lsb_depth	opus_encoder.c	/^    int          lsb_depth;$/;"	m	struct:OpusEncoder	file:
+main	opus_compare.c	/^int main(int _argc,const char **_argv){$/;"	f
+main	opus_demo.c	/^int main(int argc, char *argv[])$/;"	f
+main	repacketizer_demo.c	/^int main(int argc, char *argv[])$/;"	f
+mapping	opus_multistream_encoder.c	/^   unsigned char mapping[8];$/;"	m	struct:__anon2	file:
+mapping	opus_private.h	/^   unsigned char mapping[256];$/;"	m	struct:ChannelLayout
+mapping_type	opus_multistream_encoder.c	/^   MappingType mapping_type;$/;"	m	struct:OpusMSEncoder	file:
+max_bandwidth	opus_encoder.c	/^    int          max_bandwidth;$/;"	m	struct:OpusEncoder	file:
+max_follower	opus_encoder.c	/^   opus_val16 max_follower;$/;"	m	struct:__anon4	file:
+meanE	analysis.h	/^   float meanE[NB_TOT_BANDS];$/;"	m	struct:__anon5
+mem	analysis.h	/^   float mem[32];$/;"	m	struct:__anon5
+mem_fill	analysis.h	/^   int   mem_fill;                      \/* number of usable samples in the buffer *\/$/;"	m	struct:__anon5
+mlp_process	mlp.c	/^void mlp_process(const MLP *m, const float *in, float *out)$/;"	f
+mode	opus_decoder.c	/^   int          mode;$/;"	m	struct:OpusDecoder	file:
+mode	opus_encoder.c	/^    int          mode;$/;"	m	struct:OpusEncoder	file:
+mode_thresholds	opus_encoder.c	/^static const opus_int32 mode_thresholds[2][2] = {$/;"	v	file:
+mono_music_bandwidth_thresholds	opus_encoder.c	/^static const opus_int32 mono_music_bandwidth_thresholds[8] = {$/;"	v	file:
+mono_voice_bandwidth_thresholds	opus_encoder.c	/^static const opus_int32 mono_voice_bandwidth_thresholds[8] = {$/;"	v	file:
+ms_get_preemph_mem	opus_multistream_encoder.c	/^static opus_val32 *ms_get_preemph_mem(OpusMSEncoder *st)$/;"	f	file:
+ms_get_window_mem	opus_multistream_encoder.c	/^static opus_val32 *ms_get_window_mem(OpusMSEncoder *st)$/;"	f	file:
+music_confidence	analysis.h	/^   float music_confidence;$/;"	m	struct:__anon5
+music_confidence_count	analysis.h	/^   int music_confidence_count;$/;"	m	struct:__anon5
+music_prob	analysis.h	/^   float music_prob;$/;"	m	struct:__anon5
+nb_channels	opus_private.h	/^   int nb_channels;$/;"	m	struct:ChannelLayout
+nb_coupled_streams	opus_multistream_encoder.c	/^   int nb_coupled_streams;$/;"	m	struct:__anon2	file:
+nb_coupled_streams	opus_private.h	/^   int nb_coupled_streams;$/;"	m	struct:ChannelLayout
+nb_frames	opus_private.h	/^   int nb_frames;$/;"	m	struct:OpusRepacketizer
+nb_streams	opus_multistream_encoder.c	/^   int nb_streams;$/;"	m	struct:__anon2	file:
+nb_streams	opus_private.h	/^   int nb_streams;$/;"	m	struct:ChannelLayout
+net	mlp_data.c	/^const MLP net = {$/;"	v
+optimize_framesize	opus_encoder.c	/^static int optimize_framesize(const void *x, int len, int C, opus_int32 Fs,$/;"	f	file:
+opus_copy_channel_in_float	opus_multistream_encoder.c	/^static void opus_copy_channel_in_float($/;"	f	file:
+opus_copy_channel_in_func	opus_multistream_encoder.c	/^typedef void (*opus_copy_channel_in_func)($/;"	t	file:
+opus_copy_channel_in_short	opus_multistream_encoder.c	/^static void opus_copy_channel_in_short($/;"	f	file:
+opus_copy_channel_out_float	opus_multistream_decoder.c	/^static void opus_copy_channel_out_float($/;"	f	file:
+opus_copy_channel_out_func	opus_multistream_decoder.c	/^typedef void (*opus_copy_channel_out_func)($/;"	t	file:
+opus_copy_channel_out_short	opus_multistream_decoder.c	/^static void opus_copy_channel_out_short($/;"	f	file:
+opus_decode	opus_decoder.c	/^int opus_decode(OpusDecoder *st, const unsigned char *data,$/;"	f
+opus_decode_float	opus_decoder.c	/^int opus_decode_float(OpusDecoder *st, const unsigned char *data,$/;"	f
+opus_decode_frame	opus_decoder.c	/^static int opus_decode_frame(OpusDecoder *st, const unsigned char *data,$/;"	f	file:
+opus_decode_native	opus_decoder.c	/^int opus_decode_native(OpusDecoder *st, const unsigned char *data,$/;"	f
+opus_decoder_create	opus_decoder.c	/^OpusDecoder *opus_decoder_create(opus_int32 Fs, int channels, int *error)$/;"	f
+opus_decoder_ctl	opus_decoder.c	/^int opus_decoder_ctl(OpusDecoder *st, int request, ...)$/;"	f
+opus_decoder_destroy	opus_decoder.c	/^void opus_decoder_destroy(OpusDecoder *st)$/;"	f
+opus_decoder_get_nb_samples	opus_decoder.c	/^int opus_decoder_get_nb_samples(const OpusDecoder *dec,$/;"	f
+opus_decoder_get_size	opus_decoder.c	/^int opus_decoder_get_size(int channels)$/;"	f
+opus_decoder_init	opus_decoder.c	/^int opus_decoder_init(OpusDecoder *st, opus_int32 Fs, int channels)$/;"	f
+opus_encode	opus_encoder.c	/^opus_int32 opus_encode(OpusEncoder *st, const opus_int16 *pcm, int analysis_frame_size,$/;"	f
+opus_encode_float	opus_encoder.c	/^opus_int32 opus_encode_float(OpusEncoder *st, const float *pcm, int analysis_frame_size,$/;"	f
+opus_encode_native	opus_encoder.c	/^opus_int32 opus_encode_native(OpusEncoder *st, const opus_val16 *pcm, int frame_size,$/;"	f
+opus_encoder_create	opus_encoder.c	/^OpusEncoder *opus_encoder_create(opus_int32 Fs, int channels, int application, int *error)$/;"	f
+opus_encoder_ctl	opus_encoder.c	/^int opus_encoder_ctl(OpusEncoder *st, int request, ...)$/;"	f
+opus_encoder_destroy	opus_encoder.c	/^void opus_encoder_destroy(OpusEncoder *st)$/;"	f
+opus_encoder_get_size	opus_encoder.c	/^int opus_encoder_get_size(int channels)$/;"	f
+opus_encoder_init	opus_encoder.c	/^int opus_encoder_init(OpusEncoder* st, opus_int32 Fs, int channels, int application)$/;"	f
+opus_malloc	opus_compare.c	/^static void *opus_malloc(size_t _size){$/;"	f	file:
+opus_multistream_decode	opus_multistream_decoder.c	/^int opus_multistream_decode($/;"	f
+opus_multistream_decode	opus_multistream_decoder.c	/^int opus_multistream_decode(OpusMSDecoder *st, const unsigned char *data,$/;"	f
+opus_multistream_decode_float	opus_multistream_decoder.c	/^int opus_multistream_decode_float($/;"	f
+opus_multistream_decode_float	opus_multistream_decoder.c	/^int opus_multistream_decode_float(OpusMSDecoder *st, const unsigned char *data,$/;"	f
+opus_multistream_decode_native	opus_multistream_decoder.c	/^static int opus_multistream_decode_native($/;"	f	file:
+opus_multistream_decoder_create	opus_multistream_decoder.c	/^OpusMSDecoder *opus_multistream_decoder_create($/;"	f
+opus_multistream_decoder_ctl	opus_multistream_decoder.c	/^int opus_multistream_decoder_ctl(OpusMSDecoder *st, int request, ...)$/;"	f
+opus_multistream_decoder_destroy	opus_multistream_decoder.c	/^void opus_multistream_decoder_destroy(OpusMSDecoder *st)$/;"	f
+opus_multistream_decoder_get_size	opus_multistream_decoder.c	/^opus_int32 opus_multistream_decoder_get_size(int nb_streams, int nb_coupled_streams)$/;"	f
+opus_multistream_decoder_init	opus_multistream_decoder.c	/^int opus_multistream_decoder_init($/;"	f
+opus_multistream_encode	opus_multistream_encoder.c	/^int opus_multistream_encode($/;"	f
+opus_multistream_encode_float	opus_multistream_encoder.c	/^int opus_multistream_encode_float$/;"	f
+opus_multistream_encode_float	opus_multistream_encoder.c	/^int opus_multistream_encode_float($/;"	f
+opus_multistream_encode_native	opus_multistream_encoder.c	/^static int opus_multistream_encode_native$/;"	f	file:
+opus_multistream_encoder_create	opus_multistream_encoder.c	/^OpusMSEncoder *opus_multistream_encoder_create($/;"	f
+opus_multistream_encoder_ctl	opus_multistream_encoder.c	/^int opus_multistream_encoder_ctl(OpusMSEncoder *st, int request, ...)$/;"	f
+opus_multistream_encoder_destroy	opus_multistream_encoder.c	/^void opus_multistream_encoder_destroy(OpusMSEncoder *st)$/;"	f
+opus_multistream_encoder_get_size	opus_multistream_encoder.c	/^opus_int32 opus_multistream_encoder_get_size(int nb_streams, int nb_coupled_streams)$/;"	f
+opus_multistream_encoder_init	opus_multistream_encoder.c	/^int opus_multistream_encoder_init($/;"	f
+opus_multistream_encoder_init_impl	opus_multistream_encoder.c	/^static int opus_multistream_encoder_init_impl($/;"	f	file:
+opus_multistream_packet_pad	repacketizer.c	/^int opus_multistream_packet_pad(unsigned char *data, opus_int32 len, opus_int32 new_len, int nb_streams)$/;"	f
+opus_multistream_packet_unpad	repacketizer.c	/^opus_int32 opus_multistream_packet_unpad(unsigned char *data, opus_int32 len, int nb_streams)$/;"	f
+opus_multistream_packet_validate	opus_multistream_decoder.c	/^static int opus_multistream_packet_validate(const unsigned char *data,$/;"	f	file:
+opus_multistream_surround_encoder_create	opus_multistream_encoder.c	/^OpusMSEncoder *opus_multistream_surround_encoder_create($/;"	f
+opus_multistream_surround_encoder_get_size	opus_multistream_encoder.c	/^opus_int32 opus_multistream_surround_encoder_get_size(int channels, int mapping_family)$/;"	f
+opus_multistream_surround_encoder_init	opus_multistream_encoder.c	/^int opus_multistream_surround_encoder_init($/;"	f
+opus_packet_get_bandwidth	opus_decoder.c	/^int opus_packet_get_bandwidth(const unsigned char *data)$/;"	f
+opus_packet_get_mode	opus_decoder.c	/^static int opus_packet_get_mode(const unsigned char *data)$/;"	f	file:
+opus_packet_get_nb_channels	opus_decoder.c	/^int opus_packet_get_nb_channels(const unsigned char *data)$/;"	f
+opus_packet_get_nb_frames	opus_decoder.c	/^int opus_packet_get_nb_frames(const unsigned char packet[], opus_int32 len)$/;"	f
+opus_packet_get_nb_samples	opus_decoder.c	/^int opus_packet_get_nb_samples(const unsigned char packet[], opus_int32 len,$/;"	f
+opus_packet_get_samples_per_frame	opus.c	/^int opus_packet_get_samples_per_frame(const unsigned char *data,$/;"	f
+opus_packet_pad	repacketizer.c	/^int opus_packet_pad(unsigned char *data, opus_int32 len, opus_int32 new_len)$/;"	f
+opus_packet_parse	opus.c	/^int opus_packet_parse(const unsigned char *data, opus_int32 len,$/;"	f
+opus_packet_parse_impl	opus.c	/^int opus_packet_parse_impl(const unsigned char *data, opus_int32 len,$/;"	f
+opus_packet_unpad	repacketizer.c	/^opus_int32 opus_packet_unpad(unsigned char *data, opus_int32 len)$/;"	f
+opus_pcm_soft_clip	opus.c	/^OPUS_EXPORT void opus_pcm_soft_clip(float *_x, int N, int C, float *declip_mem)$/;"	f
+opus_realloc	opus_compare.c	/^static void *opus_realloc(void *_ptr,size_t _size){$/;"	f	file:
+opus_repacketizer_cat	repacketizer.c	/^int opus_repacketizer_cat(OpusRepacketizer *rp, const unsigned char *data, opus_int32 len)$/;"	f
+opus_repacketizer_cat_impl	repacketizer.c	/^static int opus_repacketizer_cat_impl(OpusRepacketizer *rp, const unsigned char *data, opus_int32 len, int self_delimited)$/;"	f	file:
+opus_repacketizer_create	repacketizer.c	/^OpusRepacketizer *opus_repacketizer_create(void)$/;"	f
+opus_repacketizer_destroy	repacketizer.c	/^void opus_repacketizer_destroy(OpusRepacketizer *rp)$/;"	f
+opus_repacketizer_get_nb_frames	repacketizer.c	/^int opus_repacketizer_get_nb_frames(OpusRepacketizer *rp)$/;"	f
+opus_repacketizer_get_size	repacketizer.c	/^int opus_repacketizer_get_size(void)$/;"	f
+opus_repacketizer_init	repacketizer.c	/^OpusRepacketizer *opus_repacketizer_init(OpusRepacketizer *rp)$/;"	f
+opus_repacketizer_out	repacketizer.c	/^opus_int32 opus_repacketizer_out(OpusRepacketizer *rp, unsigned char *data, opus_int32 maxlen)$/;"	f
+opus_repacketizer_out_range	repacketizer.c	/^opus_int32 opus_repacketizer_out_range(OpusRepacketizer *rp, int begin, int end, unsigned char *data, opus_int32 maxlen)$/;"	f
+opus_repacketizer_out_range_impl	repacketizer.c	/^opus_int32 opus_repacketizer_out_range_impl(OpusRepacketizer *rp, int begin, int end,$/;"	f
+parse_size	opus.c	/^static int parse_size(const unsigned char *data, opus_int32 len, opus_int16 *size)$/;"	f	file:
+pmusic	analysis.h	/^   float pmusic[DETECT_SIZE];$/;"	m	struct:__anon5
+prev_HB_gain	opus_encoder.c	/^    opus_val16   prev_HB_gain;$/;"	m	struct:OpusEncoder	file:
+prev_band_tonality	analysis.h	/^   float prev_band_tonality[NB_TBANDS];$/;"	m	struct:__anon5
+prev_channels	opus_encoder.c	/^    int          prev_channels;$/;"	m	struct:OpusEncoder	file:
+prev_framesize	opus_encoder.c	/^    int          prev_framesize;$/;"	m	struct:OpusEncoder	file:
+prev_mode	opus_decoder.c	/^   int          prev_mode;$/;"	m	struct:OpusDecoder	file:
+prev_mode	opus_encoder.c	/^    int          prev_mode;$/;"	m	struct:OpusEncoder	file:
+prev_redundancy	opus_decoder.c	/^   int          prev_redundancy;$/;"	m	struct:OpusDecoder	file:
+prev_tonality	analysis.h	/^   float prev_tonality;$/;"	m	struct:__anon5
+print_usage	opus_demo.c	/^void print_usage( char* argv[] )$/;"	f
+pspeech	analysis.h	/^   float pspeech[DETECT_SIZE];$/;"	m	struct:__anon5
+rangeFinal	opus_decoder.c	/^   opus_uint32  rangeFinal;$/;"	m	struct:OpusDecoder	file:
+rangeFinal	opus_encoder.c	/^    opus_uint32  rangeFinal;$/;"	m	struct:OpusEncoder	file:
+rate_allocation	opus_multistream_encoder.c	/^static opus_int32 rate_allocation($/;"	f	file:
+read_pcm16	opus_compare.c	/^static size_t read_pcm16(float **_samples,FILE *_fin,int _nchannels){$/;"	f	file:
+read_pos	analysis.h	/^   int read_pos;$/;"	m	struct:__anon5
+read_subframe	analysis.h	/^   int read_subframe;$/;"	m	struct:__anon5
+run_analysis	analysis.c	/^void run_analysis(TonalityAnalysisState *analysis, const CELTMode *celt_mode, const void *analysis_pcm,$/;"	f
+signal_type	opus_encoder.c	/^    int          signal_type;$/;"	m	struct:OpusEncoder	file:
+silk12_test	opus_demo.c	/^static const int silk12_test[][4] = {$/;"	v	file:
+silk16_test	opus_demo.c	/^static const int silk16_test[][4] = {$/;"	v	file:
+silk8_test	opus_demo.c	/^static const int silk8_test[][4] = {$/;"	v	file:
+silk_biquad_float	opus_encoder.c	/^static void silk_biquad_float($/;"	f	file:
+silk_bw_switch	opus_encoder.c	/^    int          silk_bw_switch;$/;"	m	struct:OpusEncoder	file:
+silk_dec_offset	opus_decoder.c	/^   int          silk_dec_offset;$/;"	m	struct:OpusDecoder	file:
+silk_enc_offset	opus_encoder.c	/^    int          silk_enc_offset;$/;"	m	struct:OpusEncoder	file:
+silk_mode	opus_encoder.c	/^    silk_EncControlStruct silk_mode;$/;"	m	struct:OpusEncoder	file:
+smooth_fade	opus_decoder.c	/^static void smooth_fade(const opus_val16 *in1, const opus_val16 *in2,$/;"	f	file:
+smoothed_width	opus_encoder.c	/^   opus_val16 smoothed_width;$/;"	m	struct:__anon4	file:
+softclip_mem	opus_decoder.c	/^   opus_val16   softclip_mem[2];$/;"	m	struct:OpusDecoder	file:
+speech_confidence	analysis.h	/^   float speech_confidence;$/;"	m	struct:__anon5
+speech_confidence_count	analysis.h	/^   int speech_confidence_count;$/;"	m	struct:__anon5
+std	analysis.h	/^   float std[9];$/;"	m	struct:__anon5
+stereo_fade	opus_encoder.c	/^static void stereo_fade(const opus_val16 *in, opus_val16 *out, opus_val16 g1, opus_val16 g2,$/;"	f	file:
+stereo_music_bandwidth_thresholds	opus_encoder.c	/^static const opus_int32 stereo_music_bandwidth_thresholds[8] = {$/;"	v	file:
+stereo_music_threshold	opus_encoder.c	/^static const opus_int32 stereo_music_threshold = 30000;$/;"	v	file:
+stereo_voice_bandwidth_thresholds	opus_encoder.c	/^static const opus_int32 stereo_voice_bandwidth_thresholds[8] = {$/;"	v	file:
+stereo_voice_threshold	opus_encoder.c	/^static const opus_int32 stereo_voice_threshold = 30000;$/;"	v	file:
+stream_channels	opus_decoder.c	/^   int          stream_channels;$/;"	m	struct:OpusDecoder	file:
+stream_channels	opus_encoder.c	/^    int          stream_channels;$/;"	m	struct:OpusEncoder	file:
+subframe_mem	analysis.h	/^   float subframe_mem[3];$/;"	m	struct:__anon5
+subframe_mem	opus_multistream_encoder.c	/^   float subframe_mem[3];$/;"	m	struct:OpusMSEncoder	file:
+surround_analysis	opus_multistream_encoder.c	/^void surround_analysis(const CELTMode *celt_mode, const void *pcm, opus_val16 *bandLogE, opus_val32 *mem, opus_val32 *preemph_mem,$/;"	f
+surround_rate_allocation	opus_multistream_encoder.c	/^static void surround_rate_allocation($/;"	f	file:
+tansig_approx	mlp.c	/^static OPUS_INLINE float tansig_approx(float x)$/;"	f	file:
+tansig_table	tansig_table.h	/^static const float tansig_table[201] = {$/;"	v
+tbands	analysis.c	/^static const int tbands[NB_TBANDS+1] = {$/;"	v	file:
+toc	opus_private.h	/^   unsigned char toc;$/;"	m	struct:OpusRepacketizer
+tonality_analysis	analysis.c	/^static void tonality_analysis(TonalityAnalysisState *tonal, const CELTMode *celt_mode, const void *x, int len, int offset, int c1, int c2, int C, int lsb_depth, downmix_func downmix)$/;"	f	file:
+tonality_analysis_init	analysis.c	/^void tonality_analysis_init(TonalityAnalysisState *tonal)$/;"	f
+tonality_analysis_reset	analysis.c	/^void tonality_analysis_reset(TonalityAnalysisState *tonal)$/;"	f
+tonality_get_info	analysis.c	/^void tonality_get_info(TonalityAnalysisState *tonal, AnalysisInfo *info_out, int len)$/;"	f
+topo	mlp.h	/^    const int *topo;$/;"	m	struct:__anon1
+topo	mlp_data.c	/^static const int topo[3] = {25, 15, 2};$/;"	v	file:
+transient_boost	opus_encoder.c	/^static float transient_boost(const float *E, const float *E_1, int LM, int maxM)$/;"	f	file:
+transient_viterbi	opus_encoder.c	/^static int transient_viterbi(const float *E, const float *E_1, int N, int frame_cost, int rate)$/;"	f	file:
+usage	repacketizer_demo.c	/^void usage(char *argv0)$/;"	f
+use_vbr	opus_encoder.c	/^    int          use_vbr;$/;"	m	struct:OpusEncoder	file:
+user_bandwidth	opus_encoder.c	/^    int          user_bandwidth;$/;"	m	struct:OpusEncoder	file:
+user_bitrate_bps	opus_encoder.c	/^    opus_int32   user_bitrate_bps;$/;"	m	struct:OpusEncoder	file:
+user_bitrate_to_bitrate	opus_encoder.c	/^static opus_int32 user_bitrate_to_bitrate(OpusEncoder *st, int frame_size, int max_data_bytes)$/;"	f	file:
+user_forced_mode	opus_encoder.c	/^    int          user_forced_mode;$/;"	m	struct:OpusEncoder	file:
+validate_encoder_layout	opus_multistream_encoder.c	/^static int validate_encoder_layout(const ChannelLayout *layout)$/;"	f	file:
+validate_layout	opus_multistream.c	/^int validate_layout(const ChannelLayout *layout)$/;"	f
+variable_HP_smth2_Q15	opus_encoder.c	/^    opus_int32   variable_HP_smth2_Q15;$/;"	m	struct:OpusEncoder	file:
+variable_duration	opus_encoder.c	/^    int          variable_duration;$/;"	m	struct:OpusEncoder	file:
+variable_duration	opus_multistream_encoder.c	/^   int variable_duration;$/;"	m	struct:OpusMSEncoder	file:
+vbr_constraint	opus_encoder.c	/^    int          vbr_constraint;$/;"	m	struct:OpusEncoder	file:
+voice_ratio	opus_encoder.c	/^    int          voice_ratio;$/;"	m	struct:OpusEncoder	file:
+vorbis_mappings	opus_multistream_encoder.c	/^static const VorbisLayout vorbis_mappings[8] = {$/;"	v	file:
+weights	mlp.h	/^    const float *weights;$/;"	m	struct:__anon1
+weights	mlp_data.c	/^static const float weights[422] = {$/;"	v	file:
+width_mem	opus_encoder.c	/^    StereoWidthState width_mem;$/;"	m	struct:OpusEncoder	file:
+write_pos	analysis.h	/^   int write_pos;$/;"	m	struct:__anon5
